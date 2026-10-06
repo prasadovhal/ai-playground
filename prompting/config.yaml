@@ -1,0 +1,106 @@
+seed: 42
+source:
+  repository: https://github.com/patronus-ai/financebench.git
+  revision: cc39aeb4afdf33909ee1412188bf89035950c2eb
+  questions: data/financebench_source/data/financebench_open_source.jsonl
+  document_metadata: data/financebench_source/data/financebench_document_information.jsonl
+  pdf_directory: data/financebench_source/pdfs
+  expected_questions: 150
+  expected_pdfs: 368
+split:
+  development: 30
+  candidate_pool_per_difficulty: 30
+  final_test_per_difficulty: 15
+document_processing:
+  parser: docling_for_short_pdfs_pymupdf_for_long_pdfs
+  docling_max_pages: 20
+  do_ocr: false
+  do_table_structure: true
+  page_markdown: true
+  fallback: pymupdf_on_docling_failure
+chunking:
+  tokenizer: BAAI/bge-base-en-v1.5
+  target_tokens: 500
+  overlap_tokens: 75
+embedding:
+  model: BAAI/bge-base-en-v1.5
+  normalize: true
+  index: IndexFlatIP
+  indexing_device: cuda
+  retrieval_device: cuda
+lexical:
+  model: BM25Okapi
+retrieval:
+  dense_candidates: 20
+  bm25_candidates: 20
+  rrf_k: 60
+  final_top_k: 5
+reranker:
+  model: BAAI/bge-reranker-base
+  device: cuda
+models:
+  generator:
+    tag: mistral:latest
+    digest: 6577803aa9a036369e481d648a2baebb381ebc6e897f2bb9a766a2aa7bfbc1cf
+  evaluator:
+    tag: qwen3.5:9b
+    digest: 6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7
+ollama:
+  base_url: http://localhost:11434
+  temperature: 0
+  seed: 42
+  num_ctx: 8192
+  generation_max_tokens: 256
+  explanation_max_tokens: 320
+  evaluation_max_tokens: 512
+  warmup_calls: 5
+  request_timeout_seconds: 600
+statistics:
+  bootstrap_resamples: 2000
+  bootstrap_seed: 42
+generation_instruction: |-
+  Answer the question using only the supplied context.
+
+  If the answer requires a calculation, perform the calculation.
+
+  Do not use information outside the supplied context.
+
+  If the context does not contain enough information, state that the available evidence is insufficient.
+
+  Give a concise answer.
+
+  Reference the supporting context IDs.
+normal_explanation_instruction: |-
+  Explain these RAG evaluation results to a machine learning engineer.
+
+  Explain:
+  - what happened
+  - the main problem
+  - the likely cause
+  - what should be investigated next
+
+  Keep the explanation technically accurate.
+asd_explanation_instruction: |-
+  Explain these RAG evaluation results using approximately 80% ASD-STE100-inspired technical writing.
+
+  Use short and direct sentences.
+
+  Prefer active voice.
+
+  Use one technical term consistently for one concept.
+
+  Avoid unnecessary adjectives.
+
+  Avoid vague abstract language.
+
+  Avoid long sentences.
+
+  Explain technical terms only when needed.
+
+  Do not remove important technical information.
+
+  Explain:
+  1. What happened.
+  2. What the main problem is.
+  3. What likely caused the problem.
+  4. What should be investigated next.

@@ -221,3 +221,5 @@ __marimo__/
 ## files
 decision_models/results/
 decision_models/report_study.py
+prompting/data/
+prompting/results

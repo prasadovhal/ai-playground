@@ -1,0 +1,8 @@
+.venv/
+.uv-cache/
+__pycache__/
+data/financebench_source/
+data/normalized/
+data/index/
+data/models/
+logs/*.log
