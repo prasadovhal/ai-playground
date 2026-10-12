@@ -1,0 +1,32 @@
+{
+  "audit_date": "2026-10-11",
+  "protocol_version": "2026-07-28",
+  "extension_identifier": "io.modelcontextprotocol/tasks",
+  "transport": "streamable HTTP with SSE responses; conformance server http://127.0.0.1:5157/stateless; workload server http://127.0.0.1:5160/mcp",
+  "client": "Python 3.14.3 requests 2.33.1 direct JSON-RPC controller in data.py",
+  "server": "official modelcontextprotocol/csharp-sdk v2.2.0; custom server/InstacartMcp.csproj and InstacartTools linked against official SDK",
+  "server_sdk_commit": "6fa3825973949a9c4f0cd8af344e15a8db09dc35",
+  "tasks_schema_commit": "899c1bbc869567670093face3591b39c28ce3219",
+  "kaggle_sdk": "kaggle Python package 2.2.4 via official Kaggle API, with python-dotenv",
+  "server_store": "custom file-backed IMcpTaskStore (workload); InMemoryMcpTaskStore (historical conformance smoke)",
+  "server_restart_persistence": "completed workload task survived process restart; active task ID survived but remained orphaned working until reconciliation",
+  "dotnet_sdk": "10.0.401",
+  "protocol_smoke_run_id": "protocol-042cb7301691",
+  "server_restart_probe_run_id": "restart-dff04890aa52",
+  "actual_instacart_workload_trials": 620,
+  "kaggle_source": "https://www.kaggle.com/datasets/psparks/instacart-market-basket-analysis; public Kaggle dataset mirror because renamed competition basket-analysis exposes only sample_submission.csv",
+  "blocked_faults": "F4/F5: no isolated worker crash boundary; ordinary A/D lack task-only F2/F8/F9/F10/F11 operations",
+  "commands": [
+    "From mcp_failures/.vendor/csharp-sdk: $env:DOTNET_CLI_HOME='D:\\Study\\Git_repo\\ai-playground\\mcp_failures\\.dotnet-home'; $env:NUGET_PACKAGES='D:\\Study\\Git_repo\\ai-playground\\mcp_failures\\.nuget'; & 'D:\\Study\\Git_repo\\ai-playground\\mcp_failures\\.dotnet\\dotnet.exe' build tests\\ModelContextProtocol.ConformanceServer\\ModelContextProtocol.ConformanceServer.csproj -f net10.0 -p:NuGetAudit=false",
+    "From mcp_failures: & 'D:\\Study\\Git_repo\\ai-playground\\mcp_failures\\.dotnet\\dotnet.exe' 'D:\\Study\\Git_repo\\ai-playground\\mcp_failures\\.vendor\\csharp-sdk\\artifacts\\bin\\ModelContextProtocol.ConformanceServer\\Debug\\net10.0\\ModelContextProtocol.ConformanceServer.dll' --urls http://127.0.0.1:5157",
+    "From mcp_failures: python -c \"from data import run_protocol_validation; print(run_protocol_validation())\"",
+    "From mcp_failures: python -c \"from data import validate_protocol_traces; print(validate_protocol_traces('protocol-042cb7301691'))\"",
+    "From mcp_failures: python main.py --mode validate-data",
+    "From mcp_failures: $env:DOTNET_CLI_HOME=(Resolve-Path '.dotnet-home').Path; $env:NUGET_PACKAGES=(Resolve-Path '.nuget').Path; & '.\\.dotnet\\dotnet.exe' build server\\InstacartMcp.csproj -p:NuGetAudit=false",
+    "From mcp_failures: $env:INSTA_ROOT=(Get-Location).Path; & '.\\.dotnet\\dotnet.exe' 'server\\bin\\Debug\\net10.0\\InstacartMcp.dll' --urls http://127.0.0.1:5160",
+    "From mcp_failures (separate shell): python main.py --mode instacart-smoke",
+    "From mcp_failures (separate shell): python main.py --mode instacart-trials --repetitions 10",
+    "From mcp_failures (separate shell): python main.py --mode instacart-trials --repetitions 30 --faults F0 F3 F6 F7",
+    "From mcp_failures: python main.py --mode instacart-summary"
+  ]
+}

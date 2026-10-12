@@ -150,6 +150,11 @@ activemq-data/
 # Environments
 .env
 .envrc
+.dotnet/
+.dotnet8/
+.dotnet-home/
+.nuget/
+.vendor/
 .venv
 env/
 venv/
@@ -223,3 +228,12 @@ decision_models/results/
 decision_models/report_study.py
 prompting/data/
 prompting/results
+
+# MCP Tasks experiment: local toolchain, downloaded data, and generated output
+mcp_failures/.dotnet/
+mcp_failures/.dotnet-home/
+mcp_failures/.nuget/
+mcp_failures/.vendor/
+mcp_failures/data/
+mcp_failures/results/
+mcp_failures/server/
