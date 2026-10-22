@@ -1,0 +1,718 @@
+{
+  "provenance": {
+    "name": "galileo-ai/ragbench",
+    "config": "hotpotqa",
+    "split": "test",
+    "revision": "97808f3e5fd16ede40bbff6c2949af8139b2eb7b",
+    "fingerprint": "50bfa2e8f0a8b839",
+    "seed": 42,
+    "selected_columns": [
+      "id",
+      "relevance_score",
+      "completeness_score"
+    ],
+    "sample_checksum": "ffcf0811b82e7bc0bc4b1b7cd04257dfa52fe10c26437d46acb4c859f475d936"
+  },
+  "records": [
+    {
+      "sample_id": "5ab7f0995542995dae37e9fb",
+      "source_index": 327,
+      "relevance_score": 0.375,
+      "completeness_score": 1.0,
+      "question": "Are Portuguese Podengo and Russo-European Laika the same breed of dog?",
+      "response": "No, the Portuguese Podengo and the Russo-European Laika are not the same breed of dog. They are two different breeds with different origins and characteristics.",
+      "documents": [
+        "A breed standard (also called bench standard or the standard) in the dog fancy is a set of guidelines covering specific \"externally observable\" qualities such as \"appearance\", \"movement\", and \"temperament\" for that dog breed. Breed standards are not scientific documents, but are written for each breed by clubs of hobbyists called breed clubs for their own specific requirements. Details and definitions within breed standards for a specific dog breed may vary from breed club to breed club and from country to country. Dog breed standards are similar in form and function to breed standards for other domesticated animals.",
+        "Russo-European Laika (Russko-Evropeĭskaya Láĭka) is the name of a breed of hunting dog that originated in the forested region of northern Europe and Russia, one of several breeds developed from landrace Laika dogs of very ancient Spitz type. The \"Russo-European Laika\" itself dates to a breeding program begun in 1944 by E. I. Shereshevsky of the All-Union Research Institute for the Hunting Industry, in Kalinin (now Tver) Province.",
+        "The Portuguese Podengo is an ancient multi-sensory hound (sight and scent) breed of dog from Portugal. As a breed, the Podengo is divided into three size categories that are not interbred: small (Pequeno), medium (Medio) and large (Grande). Their coats are either short and 'smooth', or longer and 'wired'. The smooth coated variety is traditional, dating back to the 5th century, whereas the wire coated variety is an outcome of the assimilation of various other breeds during the 20th century. In general, the breed is healthy; the Pequeno (small) variety has an average lifespan of approximately 15–17 years.",
+        "The Andalusian hound (Spanish: \"Podenco andaluz\" ) is a dog breed originating in Spain, especially Andalusia. These dogs are similar to other Iberian breeds such as the Ibizan Hound, the Portuguese Podengo, the Podenco Canario and the Maneto. In the Iberian Peninsula there are cave paintings representing dogs with a strong resemblance to these races. Dogs very similar to these, including the Cirneco dell'Etna and Pharaoh Hound, have been bred in much of the Mediterranean basin since ancient times. Despite the widespread belief that the podencos were introduced into Spain some 3,000 years ago by the Phoenicians, recent genetic studies have concluded that these dogs actually have a close genetic relationship with other European hunting dogs and are no more \"primitive\" than the others."
+      ]
+    },
+    {
+      "sample_id": "5a8f54165542992414482a52",
+      "source_index": 57,
+      "relevance_score": 0.1875,
+      "completeness_score": 1.0,
+      "question": "The Meadowbrook State Parkway connects to the Southern State Parkway in a community with what population as of the 2010 census?",
+      "response": "The Meadowbrook State Parkway connects to the Southern State Parkway in North Merrick, a community with a population of 12,272 as of the 2010 census.",
+      "documents": [
+        "North Merrick is a community and census-designated place in Nassau County, New York, United States. The population was 12,272 at the 2010 census.",
+        "The Bronx River Parkway (sometimes abbreviated as the Bronx Parkway) is a 19.12 mi long parkway in downstate New York in the United States. It is named for the nearby Bronx River, which it parallels. The southern terminus of the parkway is at Story Avenue near Bruckner Expressway in the Bronx neighborhood of Soundview. The northern terminus is at the Kensico Circle in North Castle, Westchester County, where the parkway connects to the Taconic State Parkway and, via a short connector, New York State Route 22 (NY 22). Within the Bronx, the parkway is maintained by the New York State Department of Transportation and is designated New York State Route 907H (NY 907H), an unsigned reference route. In Westchester County, the parkway is maintained by the Westchester County Department of Public Works and is designated unsigned County Route 9987 (CR 9987).",
+        "Jones Beach State Park (colloquially, \"Jones Beach\") is a state park of the U.S. state of New York. It is in southern Nassau County, in the hamlet of Wantagh, on Jones Beach Island, a barrier island linked to Long Island by the Meadowbrook State Parkway, Wantagh State Parkway, and Ocean Parkway.",
+        "The Meadowbrook State Parkway (also known as the Meadowbrook, the Meadowbrook Parkway or the MSP) is a 12.52 mi parkway in Nassau County, New York, in the United States. Its southern terminus is at a full cloverleaf interchange with the Bay and Ocean parkways in Jones Beach State Park. The parkway heads north, crossing South Oyster Bay and intersecting Loop Parkway before crossing onto the mainland and connecting to the Southern State Parkway in North Merrick. It continues north to the village of Carle Place, where the Meadowbrook Parkway ends at exit 31A of the Northern State Parkway. The Meadowbrook Parkway is designated New York State Route 908E (NY 908E), an unsigned reference route. Most of the road is limited to non-commercial traffic, like most parkways in the state of New York; however, the portion south of Merrick Road is open to commercial traffic."
+      ]
+    },
+    {
+      "sample_id": "5add15d15542994ed6169c70",
+      "source_index": 12,
+      "relevance_score": 0.2,
+      "completeness_score": 1.0,
+      "question": "Socialist conferences were held with what countries that opposed the Central Powers in the First World War?",
+      "response": "The socialist conferences were held with the socialist parties of the countries that opposed the Central Powers in the First World War, specifically the Entente or Allied powers.",
+      "documents": [
+        "The Zimmerwald Conference was held in Zimmerwald, Switzerland, from 5 to 8 September 1915. It was the first of three international socialist conferences convened by anti-militarist socialist parties from countries that were originally neutral during World War I. The individuals and organizations participating in this and subsequent conferences held at Kienthal and Stockholm are known jointly as the Zimmerwald movement.",
+        "During the First World War there were a number of conferences of the socialist parties of the Entente or Allied powers.",
+        "The Ukrainian War of Independence was a period of sustained warlike conflict between different political and military forces, lasting from 1917 to 1921, which resulted in the establishment and development of a Ukrainian republic, later a part of the Soviet Union as the Ukrainian Soviet Socialist Republic. It consisted of a series of military conflicts between different governmental, political and military forces, among them Ukrainian nationalists, anarchists, Bolsheviks, the Central Powers forces of Germany and Austria-Hungary, the White Russian Volunteer Army, and Second Polish Republic forces for control of Ukraine after the February Revolution in the Russian Empire. Also involved were the Allied forces of Romania and France. The struggle lasted from February 1917 to November 1921 and resulted in the division of Ukraine between the Bolshevik Ukrainian SSR, Poland, Romania, and Czechoslovakia. The conflict is frequently viewed within the framework of the Russian Civil War as well as the closing stage of the Eastern Front of the First World War.",
+        "The Allies of World War I, or Entente Powers, were the countries that opposed the Central Powers in the First World War."
+      ]
+    },
+    {
+      "sample_id": "5a792f3e554299029c4b5f20",
+      "source_index": 379,
+      "relevance_score": 0.2857142857142857,
+      "completeness_score": 1.0,
+      "question": "What was the name of a land where Maria Anna of Spain's husband was king?",
+      "response": "Hungary and Bohemia",
+      "documents": [
+        "Maria Anna of Spain (18 August 1606 – 13 May 1646), was by birth Infanta of Spain and by marriage Holy Roman Empress and Queen of Hungary and Bohemia as the wife of Ferdinand III, Holy Roman Emperor.",
+        "Ferdinand III (13 July 1608 – 2 April 1657) was Holy Roman Emperor from 15 February 1637 until his death, as well as King of Hungary and Croatia, King of Bohemia and Archduke of Austria. He was the last emperor to have real power over the Holy Roman Empire.",
+        "Maria Anna of Austria (Maria Anna Josepha; 7 September 1683 – 14 August 1754) was Queen consort of Portugal by marriage to King John V of Portugal. She was Regent of Portugal from 1742 until 1750 during the illness of John V.",
+        "Archduchess \"Maria Anna\" Isabelle Epiphanie Eugenie Gabriele of Austria, full German name: \"Maria Anna Isabelle Epiphanie Eugenie Gabriele, Erzherzogin von Österreich\" (6 January 1882, Linz, Upper Austria, Austria–Hungary – 25 February 1940, Lausanne, Vaud, Switzerland) was a member of the Teschen branch of the House of Habsburg-Lorraine and an Archduchess of Austria and Princess of Bohemia, Hungary, and Tuscany by birth. Through her marriage to Prince Elias of Bourbon-Parma (later Duke of Parma), Maria Anna was also a member of the House of Bourbon-Parma and a Princess of Bourbon-Parma."
+      ]
+    },
+    {
+      "sample_id": "5ac35003554299741d48a24b",
+      "source_index": 140,
+      "relevance_score": 0.21052631578947367,
+      "completeness_score": 0.25,
+      "question": "which nuclear reservation in the United States  did  the U.S. Atomic Energy Commission acquired Meyers Mill  as part of ",
+      "response": "The U.S. Atomic Energy Commission acquired Meyers Mill as part of the site for the Savannah River Plant.",
+      "documents": [
+        "The Karachi Nuclear Power Complex or KNPC is located in Paradise Point, Karachi, Sindh, Pakistan. It consists of the Karachi Nuclear Power Plant (KANUPP) and the Pakistan Atomic Energy Commission's Control & Instrumentation Analysis Lab (CIAL KARACHI). Two new nuclear power plants, KANUPP-2 and KANUPP-3, are also under construction at the site. When complete, the complex of civilian nuclear power plants will produce over 2000 MW of electricity. The International Atomic Energy Agency safeguards and inspects the complex. The plant is under construction by the Pakistan Atomic Energy Commission (PAEC) and is financed by the IAEA, the China Guangdong Nuclear Power Group, the China National Nuclear Corporation, and the China Atomic Energy Authority.",
+        "The history of pursuing nuclear medicine goes back to 1956, when the Pakistan Atomic Energy Commission (PAEC) was established under the executive order of the Prime Minister of Pakistan, Huseyn Shaheed Suhrawardy. The PAEC, the scientific body who is responsible for establishing the nuclear power plants in the country, has sat up a Nuclear Medicines laboratory. The PAEC also sat up the nuclear medicines lab and facilities throughout the country to fight against Cancer. Pakistan Atomic Energy Commission had provided the facilities of diagnosis and treatment of cancer and allied diseases to the patients from all over the country employing Nuclear Techniques at its Medical Centres. PAEC also sponsored the research program in the field of radiochemistry and biochemistry. PAEC also sat up the research institutes all over the country, some of them are below:",
+        "The Savannah River Site (SRS) is a nuclear reservation in the United States in the state of South Carolina, located on land in Aiken, Allendale, and Barnwell counties adjacent to the Savannah River, 25 mi southeast of Augusta, Georgia. The site was built during the 1950s to refine nuclear materials for deployment in nuclear weapons. It covers 310 sqmi and employs more than 10,000 people.",
+        "Meyers Mill was an unincorporated community in southwestern Barnwell County, South Carolina, United States. The area was originally settled by the Meyer family in the late 19th century. Meyers Mill grew after a train stop was built on a new rail line. In 1951, it was acquired by the U.S. Atomic Energy Commission as part of a site for the Savannah River Plant."
+      ]
+    },
+    {
+      "sample_id": "5ae326d85542991a06ce9938",
+      "source_index": 125,
+      "relevance_score": 0.2,
+      "completeness_score": 0.6666666666666666,
+      "question": "Who wrote the TV serial in which Rosemary Martin played Marjorie ?",
+      "response": "Dennis Potter wrote the TV serial \"Pennies from Heaven\" in which Rosemary Martin played Marjorie.",
+      "documents": [
+        "Pennies From Heaven is a 1978 BBC musical drama serial written by Dennis Potter. The title is taken from the song \"Pennies from Heaven\" written by Johnny Burke and Arthur Johnston. It was one of several Potter serials (another being \"The Singing Detective\") to mix the reality of the drama with a dark fantasy content, and the earliest of his works where the characters burst into extended performances of popular songs.",
+        "Rosemary Martin (17 December 1936 – 14 August 1998) was an English actress, born in Birmingham. She appeared in dozens of films from 1964 to 1998 and is also known for television roles including Mrs. Partridge in \"Last of the Summer Wine\", Vera in \"Oh No, It's Selwyn Froggitt!\", Marjorie in \"Pennies from Heaven\", Miss Weber in \"The Insurance Man\", Renie Fox in \"Fox\" and Verna Johnson in \"Tenko\".",
+        "Deep Dhillon is an Indian film actor who works in Hindi and Punjabi cinema. He played the role of Jayadratha in the famous Indian TV serial Mahabharat and as Sahstrarjun in TV serial Vishnu Puran.",
+        "Frank Reginald \"Freddie\" Martin (October 12, 1893 - November 23, 1967) was a West Indian cricketer who played in West Indies' first Test in their inaugural Test tour of England. A left-handed batsman and slow left-arm bowler, Martin played domestic cricket for Jamaica, Kingston, Jamaica being the town of his birth. He played in every Test in both of the West Indies' first two Test tours, in 1928 and in 1930-31. In the fifth Test at Sydney of the 1930-31 tour, he scored 123 not out in the first innings against the strong Australian bowling of the day, part of the West Indies' 350 for 6. Later he took four wickets for 111 runs. This was the West Indies' first victory away from home, and Martin's last Test. He died in Kingston at the age of seventy four."
+      ]
+    },
+    {
+      "sample_id": "5ab56ed0554299637185c597",
+      "source_index": 114,
+      "relevance_score": 0.2727272727272727,
+      "completeness_score": 0.6666666666666666,
+      "question": "Telescope Hill is near the hamlet that is in what Suffolk County, New York town?",
+      "response": "Telescope Hill is near the hamlet of Selden in the Town of Brookhaven, Suffolk County, New York.",
+      "documents": [
+        "Selden is a hamlet (and census-designated place) in the Town of Brookhaven in Suffolk County, New York, United States. The population was 19,851 at the 2010 census.",
+        "WALK-FM (97.5 FM, \"WALK 97.5\") is a radio station on Long Island with a hot adult contemporary format. The station is licensed to Patchogue, New York. Its transmitter is located on Telescope Hill in Farmingville, New York. The station's signal reaches most of Long Island as well as much of Connecticut reaching into the greater Hartford area.",
+        "Telescope Hill, at 334 ft , is the highest point of elevation in the Town of Brookhaven, on Long Island, New York, United States. The hill is located at the end of Tower Hill Ave., on the border of the ZIP codes of the hamlets of Selden and Farmingville, and west of Bald Hill.",
+        "Suffolk County Transit is the provider of bus services in Suffolk County, New York on Long Island in the United States and is an agency of the Suffolk County government. It was founded in 1980 as a county-run oversight and funding agency for a group of private contract operators which had previously provided such services on their own. While the physical maintenance and operation of the buses continue to be provided by these providers, other matters ranging from bus purchases to route and schedule planning to fare rules are set by Suffolk Transit itself."
+      ]
+    },
+    {
+      "sample_id": "5ae140f95542997b2ef7d182",
+      "source_index": 71,
+      "relevance_score": 0.16666666666666666,
+      "completeness_score": 1.0,
+      "question": "Ivan Simson was under the command of the officer who was most noted for a defeat at what WWII battle?",
+      "response": "Ivan Simson was under the command of Lieutenant-General Arthur Ernest Percival, who was most noted for his defeat at the Battle of Singapore during WWII.",
+      "documents": [
+        "Lieutenant-General Arthur Ernest Percival, {'1': \", '2': \", '3': \", '4': \"} (26 December 1887 – 31 January 1966) was a senior British Army officer. He saw service in the First World War and built a successful military career during the interwar period but is most noted for his defeat in the Second World War, when he commanded British Commonwealth forces during the Japanese Malayan Campaign and the subsequent Battle of Singapore.",
+        "\"For the WWII battle of the same name see: Battle of the Santa Cruz Islands\"",
+        "Field Marshal Sir Claud William Jacob, {'1': \", '2': \", '3': \", '4': \"} (21 November 1863 – 2 June 1948) was a British Indian Army officer. He served in the First World War as commander of the Dehra Dun Brigade, as General Officer Commanding 21st Division and as General Officer Commanding II Corps in the Fifth Army. During the Battle of the Somme, his corps undertook the British attack during the Battle of Thiepval Ridge in September 1916 and the subsequent assault on St Pierre Divion during the Battle of the Ancre in November 1916. He remained in command of II Corps for the Battle of Passchendaele in Autumn 1917. After the War he commanded a corps of the British Army of the Rhine during the occupation there and then served as Chief of the General Staff in India. He went on to be General Officer Commanding Northern Command in India before temporarily becoming Commander-in-Chief, India and then taking over as Military Secretary to the India Office.",
+        "Brigadier Ivan Simson OBE (1890–1971) was the Chief Engineer in Malaya from August 1941 until its surrender to the Japanese in 1942. Simson was tasked with improving the defenses in Singapore in the face of possible attack by the Japanese, although Simson's defensive recommendations were largely rejected by his commander, Arthur Percival, as being bad for moral. Previously he was Deputy Chief Engineer Scottish Command."
+      ]
+    },
+    {
+      "sample_id": "5a7b1d3b5542992d025e677a",
+      "source_index": 377,
+      "relevance_score": 0.125,
+      "completeness_score": 1.0,
+      "question": "What memorial park located at John J. Pershing Drive in North Omaha has, among other amenities, a baseball park?",
+      "response": "N.P. Dodge Memorial Park, also known as Dodge Park, located at 11001 John J. Pershing Drive in North Omaha, has a baseball park among its amenities.",
+      "documents": [
+        "Stardust Memorial Park (Irish: An Pháirc Cuimhneacháin Stardust ), also known as the Stardust Memorial Garden, is a protected memorial park located in Coolock, Dublin built to commemorate the lives of those who died in the Stardust nightclub 1981 fire in Artane, Dublin. The park was officially completed and opened on 18 September 1993, by the then Lord Mayor of Dublin, Tomás MacGiolla. The memorial represents a circular pool with a bronze sculpture of a dancing couple in the middle, and the memorial was designed by the sculptor, Robin Buick. Water is pumped by 48 jets in the illuminated fountain which surrounds the sculpture. The fountain is enclosed by 48 pillars, each pillar representing a person lost in the tragedy. In the memorial park, there is a number of facilities open to the public including a newly renovated playground and a garden terrace. The park comprises 20 acres along the Santry River. The land was originally a 12th-century monastic site.",
+        "A baseball field, also called a ball field or a baseball diamond, is the field upon which the game of baseball is played. The term can also be used as a metonym for a baseball park.",
+        "The Florence Water Works is located along John J. Pershing Drive in the Florence neighborhood of Omaha, Nebraska. Home of the Minne Lusa Pumping Station, the Water Works has provided water throughout the city of Omaha since 1880.",
+        "N.P. Dodge Memorial Park, or simply Dodge Park, is a recreational area located at 11001 John J. Pershing Drive in North Omaha, Nebraska, United States. Located on the Missouri River, the park provides fishing, water skiing, and boating, as well as hiking throughout its riparian forests. Baseball fields, soccer fields, horseshoe pits, and tennis courts are included for sporting events. There is a picnic area, pavilions, historical monuments, and a campground."
+      ]
+    },
+    {
+      "sample_id": "5a7fb1765542992e7d278d20",
+      "source_index": 52,
+      "relevance_score": 0.16666666666666666,
+      "completeness_score": 0.6666666666666666,
+      "question": "Why does the City of Boston get their christmas tree from Ainslee Glen Nova Scotia?",
+      "response": "The City of Boston gets their Christmas tree from Ainslie Glen, Nova Scotia as a gesture of thanks for their assistance after the 1917 Halifax Explosion. This tradition has been ongoing since 1971.",
+      "documents": [
+        "Ainslie Glen (Scottish Gaelic: \"Gleann nam Màgan\" ) is a small community in the Canadian province of Nova Scotia, located in Inverness County on Cape Breton Island. In 2016, a tree on Crown Lands was chosen to become the Boston Christmas Tree.",
+        "The Boston Christmas Tree is the City of Boston, Massachusetts' official Christmas tree. A tree has been lit each year since 1941, and since 1971 it has been given to the people of Boston by the people of Nova Scotia in thanks for their assistance after the 1917 Halifax Explosion. The tree is lit in the Boston Common throughout the Christmas season.",
+        "Foster Hutchinson Jr. (d. 1815) was a member of the Nova Scotia Council and one of the Puisne judges of the Supreme Court of Nova Scotia. He was the only son of Foster Hutchinson (judge), Sr., the nephew of Governor of Massuchsetts Thomas Hutchinson and grandchild of Governor of Nova Scotia Paul Mascarene. He arrived in Halifax from Boston with his father as Loyalists (1776). Hutchinson became a lawyer and worked under Chief Justice Thomas Andrew Lumisden Strange. Sir George Prévost appointed him an Assistant Justice to the Supreme Court (1809). He is buried in the Old Burying Ground (Halifax, Nova Scotia).",
+        "French Village is a rural community of the Halifax Regional Municipality in the Canadian province of Nova Scotia on Chebucto Peninsula. French village initially included present day villages of Tantallon, Glen Haven and French Village. The French that migrated to the area were French speaking families from the Principality of Montbeliard (annexed by France 1793)and known as the \"Foreign Protestants\". They had come to Nova Scotia between 1750 and 1752 to settle Lunenburg, Nova Scotia. Contrary to belief, they were not Huguenots. In 1901, the Halifax and Southwestern Railway was built through the area and the railway choose the name French Village for the station serving the three communities. The French Village station, actually located in Tantallon, has been preserved as a cafe beside the recreational trail that follows the old Halifax & Southwestern Railway roadbed."
+      ]
+    },
+    {
+      "sample_id": "5adc0c2b55429947ff1738db",
+      "source_index": 346,
+      "relevance_score": 0.14285714285714285,
+      "completeness_score": 1.0,
+      "question": "Are Agee and To Shoot an Elephant both documentaries about war?",
+      "response": "No, Agee is a documentary about the writer James Agee, while To Shoot an Elephant is a documentary about the 2008-2009 Gaza War.",
+      "documents": [
+        "Hannibal Brooks is a 1969 British war comedy film directed by Michael Winner and written by Ian La Frenais and Dick Clement based on a story by Winner and Tom Wright. The film follows a prisoner of war attempt's to escape from Nazi Germany to Switzerland during World War II, accompanied by an Asian elephant. It stars Oliver Reed, Michael J. Pollard and Wolfgang Preiss. The beginning is based on the experiences of the writer Tom Wright who, while a prisoner of war, worked at Munich Zoo to care for their elephant \"Lucy\". It has also been attributed to the true story of Olga the elephant rescued from Vienna Zoo in 1944. The title is a reference to the Carthaginian military commander Hannibal who led an army of war elephants over the Alps.",
+        "Surus (\"the Syrian\") was believed to be the last war elephant of Carthaginian general Hannibal Barca's army in Italy. Several Roman writers give accounts of Surus, which was probably a large Asian elephant with one tusk. Although a Carthaginian coin struck in the time of Hannibal depicts an African elephant, historians believe Surus was an Indian elephant descended from those seized by Ptolemies of Egypt, Alexander's successors, in their campaigns in Syria. According to some accounts, the animal was the last of the 37 war elephants Hannibal took with him on his 218 B.C. crossing of the Alps, during the Second Punic War.",
+        "To Shoot an Elephant is a 2009 documentary film about the 2008-2009 Gaza War directed by Alberto Arce and Mohammad Rujailahk.",
+        "Agee is a 1980 American documentary film directed by Ross Spears, about the writer James Agee. It was nominated for an Academy Award for Best Documentary Feature."
+      ]
+    },
+    {
+      "sample_id": "5ae3789b5542992e3233c412",
+      "source_index": 279,
+      "relevance_score": 0.18181818181818182,
+      "completeness_score": 1.0,
+      "question": "Riom Trial was headed by the French general who reached what distinction?",
+      "response": "The Riom Trial was headed by Marshal Philippe Pétain, who reached the distinction of Marshal of France.",
+      "documents": [
+        "Henri Philippe Benoni Omer Joseph Pétain (24 April 1856 – 23 July 1951), generally known as Philippe Pétain (] ) or Marshal Pétain (\"Maréchal Pétain\"), was a French general who reached the distinction of Marshal of France, and later served as the Chief of State of Vichy France also known as Nationalist France or the French State \"(Chef de l'État Français)\", from 1940 to 1944. Pétain, who was 84 years old in 1940, ranks as France's oldest head of state. Today, he is considered the French equivalent to his contemporary Quisling in Norway. Because of his outstanding military leadership in World War I, particularly during the Battle of Verdun, Pétain was viewed as a national hero in France and was not executed. He was sometimes nicknamed \"The Lion of Verdun\".",
+        "Jean Colin (also Jean-Alphonse and Jean-Lambert-Alphonse), (December 27, 1864 - December 30, 1917) was a French general and military writer. He has been judged \"one of the brilliant members of the French General Staff before 1914.\"",
+        "The Riom Trial (French: \"Procès de Riom\" ; 19 February 1942 – 21 May 1943) was an attempt by the Vichy France regime, headed by Marshal Philippe Pétain, to prove that the leaders of the French Third Republic (1870–1940) had been responsible for France's defeat by Germany in 1940. The trial was held in the city of Riom in central France, and had mainly political aims – namely to project the responsibility of defeat onto the leaders of the left-wing Popular Front government that had been elected 3 May 1936.",
+        "Auguste-Charles-Joseph de Flahaut de La Billarderie, \"comte de Flahaut\" (21 April 1785 – 1 September 1870) was a French general and statesman. was a French general during the Napoleonic Wars, a statesman, and late in life French ambassador to the Court of St. James."
+      ]
+    },
+    {
+      "sample_id": "5a825da055429954d2e2eb17",
+      "source_index": 44,
+      "relevance_score": 0.09523809523809523,
+      "completeness_score": 1.0,
+      "question": "Which style is the building located on the East Side of Midtown Manhattan that Robert Von Ancken appraised? ",
+      "response": "The Chrysler Building is an Art Deco-style skyscraper located on the East Side of Midtown Manhattan that Robert Von Ancken appraised.",
+      "documents": [
+        "The Chrysler Building is an Art Deco-style skyscraper located on the East Side of Midtown Manhattan, at the intersection of 42nd Street and Lexington Avenue in the Turtle Bay neighborhood. At 318.9 m , the structure was the world's tallest building for 11 months before it was surpassed by the Empire State Building in 1931.",
+        "The Waterloo Public Library-East Side Branch is a historic building located in Waterloo, Iowa, United States. The public library was established here in 1896. It operated out of two rented rooms, one on the east side of the Cedar River and other on the west side. The Carnegie Foundation offered a grant of $30,000 to build a new library, but disagreements erupted over whether to place the building on the east side or west side of the river. They then agreed to grant $40,000 for a mid-river building, or the same amount for two buildings. In the end they agreed to grant the community $24,000 to build this building and a similar amount for the west side branch. Waterloo architect John G. Ralston designed both buildings in the Neoclassical style. Both were dedicated on February 23, 1906. The single-story Bedford stone structure was built over a raised basement. It is one of the few stone buildings in Waterloo. The building has a central portico with paired Ionic columns. It is part of a larger central mass that is oriented from front to back and sits across the lower hipped roof.",
+        "Robert Von Ancken is a prominent New York City real estate appraiser, whose accomplishments include testifying in front of the Supreme Court to deter the construction of a building over Grand Central Terminal and establishing the value of the World Trade Center prior to the terrorist attacks on behalf of the insurance companies. Throughout his career he has appraised more than 8,000 properties in and around New York City, including the Empire State Building, the Chrysler Building, Rockefeller Center and Columbia University. He has also been referred to as one of the \"nation's busiest experts on air rights\", and has spoken and been quoted extensively on the topic.",
+        "\"I Am Become Death\" is the fourth episode of the third season of the NBC science fiction drama series \"Heroes\" and thirty-eighth episode overall. It was written by Aron Coleite and directed by David Von Ancken. The episode aired on October 6, 2008. The title is a reference to a phrase from the \"Bhagavad Gita\" and was famously quoted by Robert Oppenheimer; \"Now I am become Death, the destroyer of worlds.\""
+      ]
+    },
+    {
+      "sample_id": "5ae71c4c554299572ea546ee",
+      "source_index": 302,
+      "relevance_score": 0.11764705882352941,
+      "completeness_score": 1.0,
+      "question": "Toyota Innova is part of the IMV program along with which light commercial vehicle?",
+      "response": "The Toyota Innova is part of Toyota's IMV program together with the Hilux pickup truck and the Fortuner SUV.",
+      "documents": [
+        "The Toyota Innova (Japanese: トヨタイノーバ \"Toyota Inōba\") is a compact MPV or MUV manufactured by the Japanese automaker Toyota. It is produced in Indonesia under supervision by Toyota Astra Motor since 2004. As with Kijang, which it replaced, the Innova is produced and first marketed in 2004 in Indonesia. The Innova is part of Toyota's IMV program together with the Hilux pickup truck and the Fortuner SUV. Its official name in Indonesia is Toyota Kijang Innova, while for other countries it is Innova.",
+        "Marengo is a model name that Italian car maker Fiat has given to the van derivatives of its mid-size cars, beginning with the \"Fiat 131 Marengo\" in 1979 and continuing with the Regata, Tempra, and Marea. The Marengo light commercial vehicle derivatives only have two seats and have only been equipped with diesel engines. The nameplate was retired in 2001 and succeeded by the van version of the Fiat Stilo Multiwagon. Fiat has a tradition of naming their commercial vehicle derivatives differently from the cars upon which they are based, compare with the Fiorino and the Penny.",
+        "The Toyota Hilux (also stylized as HiLux and historically as Hi-Lux) is a series of light commercial vehicles produced and marketed by the Japanese manufacturer Toyota. The majority of these vehicles were sold as pickup truck or cab chassis variants although they could be configured in a variety of body styles. Most countries used the Hilux name for the entire life of the series but in North America, the Hilux name was retired in 1976 in favor of \"Truck\", \"Pickup Truck\", or \"Compact Truck\". In North America the popular option package, the SR5 (Sport Rally 5-Speed), was colloquially used as a model name for the truck, even though the option package was also used on other Toyota models like the 1972 to 1979 Corolla. In 1984, the Toyota Trekker, the camper version of the Hilux, was renamed as the 4Runner in Australia and North America, and as the Hilux Surf in Japan. In 1995, Toyota introduced a new pickup model, the Tacoma in North America, discontinuing the Hilux/Pickup there. The 4Runner is now a full SUV, and the more recent models do not resemble the Tacoma.",
+        "A light commercial vehicle is the official term used within the European Union, Australia, New Zealand, and occasionally in both Canada and Ireland (where Commercial Van is more frequently used) for a commercial carrier vehicle with a gross vehicle weight of not more than 3.5 tonnes; the term light goods vehicle (LGV) may also be used by member countries which can be confused with Large goods vehicle (also 'LGV') which is the official EU term for a vehicle with a gross vehicle weight of over 3.5 tonnes."
+      ]
+    },
+    {
+      "sample_id": "5a74325055429979e28828b3",
+      "source_index": 216,
+      "relevance_score": 0.15384615384615385,
+      "completeness_score": 1.0,
+      "question": "BOTH Skyang Kangri and Pumari Chhish are both what?",
+      "response": "High peaks of the Karakoram range",
+      "documents": [
+        "Skyang Kangri (Urdu: ‎ ), or Staircase Peak, is a high peak of the Baltoro Muztagh, a subrange of the Karakoram range. It lies on the Pakistan-China border, about 7 km northeast of K2, the world's second-highest mountain. The name \"Staircase Peak\" refers to the East Ridge, which resembles a giant staircase with five steps.",
+        "Pumari Chhish (Urdu: ‎ ), (or Pumarikish, Peak 11) is a high peak of the Hispar Muztagh, a subrange of the Karakoram range. It lies about 4 km east of Khunyang Chhish, in the heart of the Hispar, north of the Hispar Glacier.",
+        "Baltoro Kangri (Urdu: بلتورو کنگری‎ ; also known as the Golden Throne) is a mountain of the Karakoram mountain range in Gilgit-Baltistan, Pakistan. Baltoro Kangri is the 82nd highest mountain in the world with an elevation of 7312 m . It lies to the south of the Gasherbrums and east of Chogolisa Peak (7,665 m). The huge Baltoro Glacier (which is one of the largest glaciers outside polar regions) rises from the foot of Baltoro Kangri. In the north of Baltoro Kangri is the Abruzzi Glacier.",
+        "Saser Kangri (or Sasir Kangri) is a mountain in India. It is the highest peak in the Saser Muztagh, the easternmost subrange of the Karakoram range. Sasir Kangri is located within Jammu and Kashmir, the northernmost state of India."
+      ]
+    },
+    {
+      "sample_id": "5a8f0a01554299458435d539",
+      "source_index": 16,
+      "relevance_score": 0.11538461538461539,
+      "completeness_score": 0.6666666666666666,
+      "question": "Telos was an album by a band who formed in what city?",
+      "response": "Telos was an album by the band Forevermore, who formed in Indianapolis, Indiana.",
+      "documents": [
+        "Sasha, Benny y Erik are a pop band from Mexico. The group was formed by 3 former members of the Mexican pop group Timbiriche, consisting of Sasha Sokol, Benny Ibarra and Erik Rubin who are close friends in real life. With much anticipation by their fans, Sasha, Benny and Erik released the live album \"\". The project has enjoyed much success with a national tour that started in late 2012 and has continued through much of 2014. The album has been certified triple platinum + gold in Mexico for sales exceeding 210,000 copies. Originally, the band performed 2 concerts at the National Auditorium in Mexico City in April 2013, but due to demand, they did two more concerts at the venue in September of that same year. In 2013, they released En Vivo desde el Auditorio Nacional, which went gold a few days after its release. At the end of 2013, the album was officially recognized by AMPROFON as the second best-selling album in Mexico that year (after the album \"Confidencias\" by Alejandro Fernandez). In late 2014, Sasha, Benny y Erik will release their first studio album \"Vuelta al Sol\" and release \"Esta Noche\" as their first single. Next singles were \"Todo tiene su lugar\" ,\"Japi\" and \"Punto de partida\". In 2015, they performed at National Auditorium twice ( two concerts in May and other two in November). In early 2016, they will release a new live album with new songs and hits, performed with several guests. First single \"Lo Siento\" featuring Pepe Aguilar, was released on February 19 in iTunes. In May, \"Entre Amigos\" was released and the band announced the end of the project in December. The album was certified as Gold some weeks later and they startred a farewell tour, which final performance will be on December 31.",
+        "Telos marks the first album from Forevermore. Solid State Records released the project on July 22, 2014. Forevermore worked with Jordan Furr on the production of this album.",
+        "Vampire Weekend is an American rock band from New York City, formed in 2006. They are currently signed to XL Recordings. The band consists of lead vocalist and guitarist Ezra Koenig, drummer and percussionist Chris Tomson and bassist and backing vocalist Chris Baio. The band's first album \"Vampire Weekend\" (2008) – which included the singles \"Mansard Roof\", \"A-Punk\", \"Oxford Comma\", \"Cape Cod Kwassa Kwassa\" and \"The Kids Don't Stand a Chance\" – was acclaimed by critics for its world music influences. Their following album, \"Contra\" (2010), was similarly acclaimed and garnered strong commercial success. Their third studio album, \"Modern Vampires of the City\" (2013), won the group a Grammy Award for Best Alternative Music Album in 2014.",
+        "Forevermore is an American Christian metal band from Indianapolis, Indiana, formed in 2009. They are signed to Solid State Records and \"Telos\" is their first work on the label."
+      ]
+    },
+    {
+      "sample_id": "5ade450b5542997c77adedc5",
+      "source_index": 15,
+      "relevance_score": 0.22727272727272727,
+      "completeness_score": 0.2,
+      "question": "Manchester, New Hampshire is a part of the Northeast megalopolis which included what other major cities?",
+      "response": "The Northeast megalopolis includes the major cities of Boston, Providence, Hartford, New York City, Philadelphia, Wilmington, Baltimore, and Washington, D.C.",
+      "documents": [
+        "The Northeast Corridor (NEC) is an electrified railway line in the Northeast megalopolis of the United States. Owned primarily by Amtrak, it runs from Boston through Providence, New York City, Philadelphia, and Baltimore to Washington, D.C.. The NEC closely parallels Interstate 95 for most of its length, and is the busiest passenger rail line in the United States by ridership and service frequency as of 2013. Branches to Harrisburg, Pennsylvania, and Springfield, Massachusetts, though not considered part of the Northeast Corridor, see frequent service from routes that run largely on the corridor.",
+        "The Northeast megalopolis (also Boston–Washington Corridor or Bos-Wash Corridor) is the most heavily urbanized region of the United States, running primarily northeast to southwest from the northern suburbs of Boston, Massachusetts, to the southern suburbs of Washington, D.C., in Northern Virginia. It includes the major cities of Boston, Providence, Hartford, New York City, Philadelphia, Wilmington, Baltimore, and Washington, D.C., along with their metropolitan areas and suburbs as well as many smaller urban centers.",
+        "New Hampshire is a state located in the Northeastern United States. This is a list of the 221 towns and 13 cities in the U.S. state of New Hampshire. New Hampshire is organized along the New England town model, where the state is nearly completely incorporated and divided into towns, some of which the state has designated as \"cities\". For each town/city, the table lists the county to which it belongs, its date of incorporation, its population according to the 2010 census, its form of government, and its principal villages. Cities are indicated in boldface. Cities and towns are treated identically under state law. Cities are just towns that dropped the town meeting form of government in favor of a city form by special act of the New Hampshire General Court. However, since 1979, changing the form of governance no longer confers city status. Towns may drop the town meeting by local vote and adopt a new charter for a representative government, such as a council-manager form, and retain their status as a town. Several of the higher-population towns have already done so.",
+        "Manchester is the largest city in the U.S. state of New Hampshire, the eleventh largest city in New England, and as of 2016 the largest city in northern New England, an area comprising the states of Maine, New Hampshire, and Vermont. As of the 2010 census, the city had a population of 109,565, and its estimated 2016 population was 110,506. It is located in Hillsborough County along the banks of the Merrimack River, which divides the city into eastern and western sections. Manchester is near the northern end of the Northeast megalopolis. It was first named by the merchant and inventor Samuel Blodget (after whom Samuel Blodget Park and Blodget Street in Manchester's North End are named). Blodget's vision was to create a great industrial center similar to that of the original Manchester in England, which was the world's first industrialized city."
+      ]
+    },
+    {
+      "sample_id": "5ab29bdc554299545a2cf9d1",
+      "source_index": 47,
+      "relevance_score": 0.4444444444444444,
+      "completeness_score": 0.5,
+      "question": "Which tendencies does a group like Uyoku dantai fall under?",
+      "response": "A group like Uyoku dantai falls under the tendencies of far-right politics, particularly in terms of extreme nationalist and authoritarian ideologies.",
+      "documents": [
+        "Uyoku dantai (右翼団体 , \"right wing group[s]\") are Japanese ultranationalist far-right groups.",
+        "Far-right politics is a term used to describe politics further on the right of the left-right spectrum than the standard political right, particularly in terms of more extreme nationalist, and nativist ideologies, as well as authoritarian tendencies.",
+        "Mystechs (sometimes referred to as The Mystechs) is an electronic/punk music group formed in 1998 in Chicago, Illinois. The band's lineup consists of keyboardist/songwriter Emil Hyde joined by a host of other musicians and collaborators. Their music covers a wide range of genres from indie rock to new wave, hip hop and heavy metal. The Mystechs began as an electronica group, gradually incorporating other genres to their sound. Hyde says of the band, \"Mystechs began as a nice, normal, female-fronted trip-hop group like Portishead or Esthero\".",
+        "Otoya Yamaguchi (山口 二矢 , \"Yamaguchi Otoya\" , February 22, 1943 – November 2, 1960) was a Japanese ultranationalist who assassinated Inejiro Asanuma, a politician and head of the Japan Socialist Party. Yamaguchi was a member of a right-wing Uyoku dantai group, and assassinated Asanuma by yoroidōshi on October 12, 1960, at Tokyo's Hibiya Hall during a political debate in advance of parliamentary elections."
+      ]
+    },
+    {
+      "sample_id": "5ae05c9f55429945ae959348",
+      "source_index": 111,
+      "relevance_score": 0.17647058823529413,
+      "completeness_score": 0.6666666666666666,
+      "question": "What is the capitol of the district that also includes the village of Shienga?",
+      "response": "The capital of the district that includes the village of Shienga is Gambaga.",
+      "documents": [
+        "The East Mamprusi District is one of the twenty (20) districts in the Northern Region of north Ghana. The capital is Gambaga.",
+        "Shienga (Shinga) is a village in East Mamprusi district, of the Northern Region of Ghana. It lies at an elevation of 349 meters near the right (southern) bank of the White Volta.",
+        "The Shelbyville Historic District is a historic district encompassing the core of Shelbyville, Illinois. The district includes 398 buildings, 293 of which are contributing buildings. The section of Shelbyville laid out at the city's founding in 1827 forms the center of the district. Shelbyville's public square, which includes the 1880 Shelby County Courthouse and a veterans' memorial, is the central feature of this part of the historic district. The original section of Shelbyville also includes significant commercial and government buildings. The district also includes Shelbyville's oldest residential areas, which developed out from the 1827 core. The Italianate style is the most prominent architectural style in the district, both in homes and commercial buildings; other common architectural styles include Greek Revival, Gothic Revival, Second Empire, and Queen Anne.",
+        "Granby Mill Village Historic District is a national historic district located at Columbia, South Carolina. The district encompasses 97 contributing buildings associated with a cotton mill and associated mill village. The mill was initially constructed in 1896-1897, and is a large four-story, rectangular brick building in the Romanesque Revival style. It features two projecting five-story entrance towers. The Granby Mill Village includes a number of “saltbox” style dwellings reminiscent of a New England mill village. The district also includes the mill gatehouse, the two-story mill office building (c. 1902), commercial buildings, the Gothic Revival style Whaley Street Methodist Church, and operatives’ houses."
+      ]
+    },
+    {
+      "sample_id": "5ae6e36155429908198fa6d3",
+      "source_index": 119,
+      "relevance_score": 0.25,
+      "completeness_score": 1.0,
+      "question": "How many disciplines are combined in the degree that Hector Janse van Rensburg graduated from the University of York with?",
+      "response": "The degree that Hector Janse van Rensburg graduated from the University of York with combines study from three disciplines.",
+      "documents": [
+        "Nicolaas Jacobus Janse van Rensburg (born 6 May 1994 in Pretoria, South Africa) is a South African rugby union player, currently playing with Montpellier in the French Top 14. His regular position is lock.",
+        "Rhyno Janse van Rensburg (born 16 December 1991) is a South African cricketer. He is a right-handed batsman and right-arm medium-pace bowler who plays for Griqualand West. He was born in Kimberley.",
+        "Hector Janse van Rensburg, better known by his pseudonym Shitty Watercolour, is a British painter and cartoonist who started posting watercolour paintings on the social media website Reddit in February 2012, and later expanded to publishing his work on his own website, on Tumblr, and on Twitter. He graduated from the University of York with a degree in Philosophy, Politics and Economics.",
+        "Philosophy, Politics and Economics (PPE) is an interdisciplinary undergraduate/post-graduate degree which combines study from three disciplines."
+      ]
+    },
+    {
+      "sample_id": "5abd9c2355429924427fd06c",
+      "source_index": 258,
+      "relevance_score": 0.23529411764705882,
+      "completeness_score": 0.5,
+      "question": "In what year did the actor who starred in the TV Land original series \"The Soul Man\" host the Black Movie Awards?",
+      "response": "The actor who starred in the TV Land original series \"The Soul Man\" hosted the Black Movie Awards in 2005.",
+      "documents": [
+        "The Black Movie Awards (BMAs) is an annual ceremony held to recognize achievements of film actors of African descent and to honor films that stand out in their portrayal of Black experience. Founded in 1997, with an inaugural event at the American Black Film Festival (ABFF), it has been televised several times since 2005, including the 2005 ceremony hosted by Cedric the Entertainer and the 2006 ceremony hosted by Tyler Perry.",
+        "Gary Anthony Williams (born March 14, 1966) is an American actor and comedian who provided the voice of Uncle Ruckus on \"The Boondocks\", Yancy Westridge in the video game \"Alpha Protocol\", and Horace Warfield in \"\". He appeared on the television series \"Weeds\", \"Boston Legal\", \"Blue Collar TV\", and as \"Abe\" Kenarban in \"Malcolm in the Middle\". Williams co-founded and is Artistic Director of the L.A. Comedy Shorts film festival in Hollywood, California. He also starred alongside Cedric the Entertainer on the hit TV Land sitcom \"The Soul Man\". Williams is currently a regular on \"Whose Line is it Anyway?\".",
+        "Cedric Antonio Kyles (born April 24, 1964), better known by his stage name, Cedric the Entertainer, is an American actor, comedian, director, and game show host. He was originally the host on \"It's Showtime at the Apollo\". He also hosted BET's \"ComicView\" during the 1993–1994 season and \"Def Comedy Jam\" in 1995. He is best known for co-starring with Steve Harvey on The WB sitcom \"The Steve Harvey Show\" and starring as Eddie Walker in \"Barbershop\". He hosted the twelfth season of daytime version of \"Who Wants to Be a Millionaire\" in the 2013–2014 television season. He also starred in the TV Land original series \"The Soul Man\", which aired its fifth and final season in 2016.",
+        "The Soul Man is an American sitcom created by Suzanne Martin and Cedric the Entertainer. The series is a spin-off from \"Hot in Cleveland\", in which Cedric guest starred in the 2011 episode \"Bridezelka\", the backdoor pilot for \"The Soul Man\". The series premiered on TV Land on June 20, 2012 with a 12-episode order."
+      ]
+    },
+    {
+      "sample_id": "5a8e463a5542995a26add4b7",
+      "source_index": 308,
+      "relevance_score": 0.1875,
+      "completeness_score": 1.0,
+      "question": "Havelock Ellis and Arnold Bennett were both what?",
+      "response": "Havelock Ellis and Arnold Bennett were both English intellectuals and writers.",
+      "documents": [
+        "Henry Havelock Ellis, known as Havelock Ellis (2 February 1859 – 8 July 1939), was an English physician, writer, progressive intellectual and social reformer who studied human sexuality. He was co-author of the first medical textbook in English on homosexuality in 1897, and also published works on a variety of sexual practices and inclinations, as well as transgender psychology. He is credited with introducing the notions of narcissism and autoeroticism, later adopted by psychoanalysis. Like many intellectuals of his era, he supported eugenics and he served as president of the Eugenics Society.",
+        "The Old Wives' Tale is a novel by Arnold Bennett, first published in 1908. It deals with the lives of two very different sisters, Constance and Sophia Baines, following their stories from their youth, working in their mother's draper's shop, into old age. It covers a period of about 70 years from roughly 1840 to 1905, and is set in Burslem and Paris. It is generally regarded as one of Bennett's finest works.",
+        "The Great Adventure is a 1921 American silent romantic comedy film produced by Whitman Bennett and distributed by First National Pictures, then called Associated First National. The film was directed by Kenneth Webb and starred Lionel Barrymore. Fredric March made his screen debut in this film. The film is based upon the novel \"Buried Alive\" by Arnold Bennett. It was remade in 1933 as \"His Double Life\" starring Lillian Gish. \"The Great Adventure\" is a surviving feature film held by the Library of Congress.",
+        "Enoch Arnold Bennett (27 May 1867 – 27 March 1931) was an English writer. He is best known as a novelist, but he also worked in other fields such as the theatre, journalism, propaganda and films."
+      ]
+    },
+    {
+      "sample_id": "5ab701395542991d3222373a",
+      "source_index": 13,
+      "relevance_score": 0.23076923076923078,
+      "completeness_score": 0.3333333333333333,
+      "question": "What  unincorporated town along the Amargosa River is near the Sarcobatus Flat?",
+      "response": "Beatty",
+      "documents": [
+        "Willets is an unincorporated community in Jackson County, North Carolina, United States. Willets is located along US 74, West of Balsam and East of Sylva. It is home to the Balsam-Willets-Ochre Hill fire department, a church, and many homes. It was a thriving unincorporated town along the Murphy Branch of the Western North Carolina Railroad, but seriously declined during the Great Depression in the 1930s, consolidations of the schools in the Scott Creek Township in 1951, and the widening/straightening of US 23 in the early 1950s and early 1970s. Today it is a tiny bedroom community for the larger population centers of Waynesville and Sylva.",
+        "Scotty's Junction is an unincorporated community in the Sarcobatus Flat of Nye County, Nevada where State Route 267 meets with U.S. Route 95 at an elevation of 4062 ft .",
+        "Sarcobatus Flat is a closed valley in western Nye County, Nevada between Goldfield and Beatty. The Bullfrog Hills form the southern boundary and the Grapevine Mountains along with Bonnie Claire Flat form the western boundary. Pahute Mesa bounds the area to the east and north. To the north the flat is contiguous with Lida Valley and Stonewall Flat.",
+        "Beatty (pronounced BAY-dee) is an unincorporated town along the Amargosa River in Nye County in the U.S. state of Nevada. U.S. Route 95 runs through the town, which lies between Tonopah, about 90 mi to the north, and Las Vegas, about 120 mi to the southeast. State Route 374 connects Beatty to Death Valley National Park, about 8 mi to the west."
+      ]
+    },
+    {
+      "sample_id": "5a8d51355542994ba4e3dc6b",
+      "source_index": 287,
+      "relevance_score": 0.09523809523809523,
+      "completeness_score": 1.0,
+      "question": "What color was the dog that Socks had conflicts with?",
+      "response": "Buddy, the dog that Socks had conflicts with, was a male chocolate-colored Labrador Retriever.",
+      "documents": [
+        "Buddy (August 7, 1997 – January 2, 2002), a male chocolate-colored Labrador Retriever, was one of two pets kept by the Clinton family while Bill Clinton was President of the United States. The Clintons' other pet was a cat named Socks.",
+        "Dusty the Klepto Kitty is a domestic Snowshoe cat who gained notoriety in early 2011 for his acts of \"burglary.\" As of his February 2011 appearance on the \"Late Show with David Letterman\", Dusty had stolen 16 car wash mitts, 7 sponges, 213 dish towels, 7 wash cloths, 5 towels, 18 shoes, 73 socks, 100 gloves, 1 pair of mittens, 3 aprons, 40 balls, 4 pairs of underwear, 1 dog collar, 6 rubber toys, 1 blanket, 3 leg warmers, 2 Frisbees, 1 golf club head cover, 1 safety mask, 2 mesh bags, 1 bag of water balloons, 1 pair of pajama pants, 8 bathing suits, and 8 miscellaneous objects.",
+        "Bakhmull is an Aboriginal Afghan Hound belonging to an ancient group of oriental sighthounds. The Afghan Royal Family were the only humans who possessed this breed. The bakhmull tazi (tazi means \" fast running sighthound\" ) is a long haired variety of sighthounds in Afghanistan. There are two more: Luchak tazi short haired like sloughi and Khalagh tazi with moderate long hair on ears, shoulders, elbows and thighs.Bakhmull tazi has developed in the mountain areas of Mid and Central Asia - ancient Punjab, Paunchala, \"Five river land\". This dog breed roots back presumably in the ancient Indian Harappa( Mohenjo Daro) civilization 2300 - 1700 B.C. If translated from Pashto (Afghan) the word \"bakhmull\" means \"velvet\" due to its incredible silky velvet, long, ivory color hair of the coat, rather abundant and long on the whole body, because it is a mountain oriental sighthound, except the \"saddle\", front parts of four legs and the muzzle. Its color is always fawn, ivory or white with a darker \"saddle\", thus it produces an impression of a fawn (yellowish) dog which coat color is protective khaki that matches sandstone and limestone of the Hindu Kush mountain landscape and deserts. Following colors are not permissible: red, red with white spots, black and black with white spots. Bakhmulls hunt the wild ram, ibex (wild mountain goat), hare, fox, wolf, jackal, wild big cats, in old times leopard, but never birds. They are also good guards; they guard homes and flocks of sheep. They hunt solo, in couples and rarely in packs. Since the 1980s the centre of Bakhmull breeding is in Russia, \"The Blue Dale el Bark Bakhmull\" Moscow, where they are spread all over the former Soviet Republics and various regions. The foundation stock was brought to Russia in the 70s by military men from Afghanistan. Breed Standard for tazi BAKHMULL (aboriginal Afghan Hound) was adopted in Moscow, Russia (since Russia has become the 2nd motherland of bakhmulls) first in 1985 and later after detailed elaboration in 1997 (RFOS-RKF).",
+        "Socks Clinton (Spring 1989 – February 20, 2009) was the pet cat of U.S. President Bill Clinton's family during his presidency. As an adopted stray cat, he was the only pet of the Clintons during the early years of the administration, and his likeness hosted the children's version of the White House website. After Clinton left office, Socks resided with former Clinton secretary Betty Currie and her husband, owing to continuing conflicts with Clinton's dog Buddy."
+      ]
+    },
+    {
+      "sample_id": "5abccb235542996583600497",
+      "source_index": 101,
+      "relevance_score": 0.19047619047619047,
+      "completeness_score": 0.5,
+      "question": "Where does the team coached by someone with the nickname \"Coach K\" play?",
+      "response": "The team coached by someone with the nickname \"Coach K\" plays its home games in Durham, North Carolina at Cameron Indoor Stadium.",
+      "documents": [
+        "The 2017 Sam Houston State Bearkats football team represent Sam Houston State University in the 2017 NCAA Division I FCS football season. The Bearkats are led by fourth-year head coach K. C. Keeler and play their home games at Bowers Stadium. They are a member of the Southland Conference.",
+        "Howard \"Moe\" Ankney (born June 23, 1942) is a former American football player and coach. He served as the head football coach at the Bowling Green State University from 1986 to 1990, compiling a record of 20–31–3. Ankney played college football as a quarterback at Bowling Green, from which he graduated in 1964. There he played on the 1962 Mid-American Conference championship team coached by Doyt Perry. After coaching high school football in Ohio from 1964 to 1970, Ankney moved to the college ranks. In addition to his head coaching stint at his alma mater, he served as a defensive assistant at Ball State University, Tulane University, the University of Arizona, Purdue University, the University of Missouri, and the University of Minnesota.",
+        "The 2014–15 Duke Blue Devils men's basketball team represented Duke University during the 2014–15 NCAA Division I men's basketball season as members of the Atlantic Coast Conference. The team played its home games in Durham, North Carolina at Cameron Indoor Stadium, celebrating the arena’s 75th anniversary. Mike Krzyzewski led the team as head coach in his 35th season with the Blue Devils. During the season, Krzyzewski became the first head coach in Division I men’s basketball history to win 1,000 games. On the court, the team featured All-ACC players Jahlil Okafor, Quinn Cook, and Tyus Jones, with Okafor being named ACC Player of the Year and National Freshman of the Year.",
+        "Michael William Krzyzewski ( ; nicknamed \"Coach K\"; born February 13, 1947) is an American college basketball coach and former player. Since 1980, he has served as the head men's basketball coach at Duke University. At Duke, Krzyzewski has led the Blue Devils to five NCAA Championships, 12 Final Fours, 12 ACC regular season titles, and 14 ACC Tournament championships. Among men's college basketball coaches, only UCLA's John Wooden, with 10, has won more NCAA Championships. Krzyzewski was also the coach of the United States men's national basketball team, which he has led to three gold medals at the 2008 Summer Olympics, 2012 Summer Olympics, and 2016 Summer Olympics. He has additionally served as the head coach of the American team that won gold medals at the 2010 and the 2014 FIBA World Cup. He was also an assistant coach for the 1992 \"Dream Team\"."
+      ]
+    },
+    {
+      "sample_id": "5ab5cedf554299488d4d9a34",
+      "source_index": 366,
+      "relevance_score": 0.26666666666666666,
+      "completeness_score": 0.5,
+      "question": "Cudjoe Kazoola Lewis was brought illegally to the United States on board a ship that was how many feet long?",
+      "response": "The ship that brought Cudjoe Kazoola Lewis illegally to the United States was 86 feet long.",
+      "documents": [
+        "Cudjoe Kazoola Lewis (c. 1840 – 1935), or Cudjo Lewis, was the last known survivor of the Atlantic slave trade between Africa and the United States. Together with 115 other captives, he was brought illegally to the United States on board the ship \"Clotilde\" in 1860. They were landed in the backwaters near Mobile, Alabama and hidden from authorities. The ship was scuttled to evade discovery.",
+        "The schooner Clotilde (or Clotilda) was the last known U.S. slave ship to bring captives from Africa to the United States, arriving at Mobile Bay in autumn 1859 (some sources give the date as July 9, 1860), with 110-160 slaves. The ship was a two-masted schooner, 86 ft long with a beam of 23 ft . The vessel was burned and scuttled at Mobile Bay, soon after. The sponsors had arranged to buy slaves in Whydah, Dahomey on May 15, 1859.",
+        "St. Nicholas Chapel, also known as the Santa Claus Church, is a historic Russian Orthodox church in Ekuk, Alaska, United States. The small, single story wood frame building was constructed in 1918 or 1919, replacing an earlier church. When originally built it was 16 feet wide and 21 feet long, but the chamber was subsequently lengthened, and is now 34 feet long. If it were not for its modest exterior religious symbols, it might be mistaken for a rural schoolhouse. The church and its graveyeard are located on a bluff which is subject to extensive erosion of the coast and, being just 185 feet from the shoreline, could be endangered in the next 50-100 years.",
+        "Valley Cottage, also known as Wallis House, is a historic home located at Georgetown, Kent County, Maryland, United States. It is a two-story gambrel roofed structure consisting of a 42 feet long 18th century portion with a 16 feet long extension built in 1954."
+      ]
+    },
+    {
+      "sample_id": "5a77ad2f55429967ab105225",
+      "source_index": 332,
+      "relevance_score": 0.2222222222222222,
+      "completeness_score": 0.75,
+      "question": "Sony/Philips Digital Interface Format can transmit over what Toshiba optical fiber connector system?",
+      "response": "Sony/Philips Digital Interface Format (S/PDIF) can transmit over a fiber optic cable with TOSLINK connectors.",
+      "documents": [
+        "TOSLINK (from \"Toshiba Link\") is a standardized optical fiber connector system. Also known generically as an \"optical audio cable\" or just \"optical cable\", its most common use is in consumer audio equipment (via a \"digital optical\" socket), where it carries a digital audio stream from components such as CD and DVD players, DAT recorders, computers, and modern video game consoles, to an AV receiver that can decode two channels of uncompressed lossless PCM audio or compressed 5.1/7.1 surround sound such as Dolby Digital Plus or DTS-HD High Resolution Audio. Unlike HDMI, TOSLINK does not have the bandwidth to carry the lossless versions of Dolby TrueHD, DTS-HD Master Audio, or more than two channels of PCM audio.",
+        "S/PDIF (Sony/Philips Digital Interface Format) is a type of digital audio interconnect used in consumer audio equipment to output audio over reasonably short distances. The signal is transmitted over either a coaxial cable with RCA connectors or a fibre optic cable with TOSLINK connectors. S/PDIF interconnects components in home theatres and other digital high-fidelity systems.",
+        "The FC connector is a fiber-optic connector with a threaded body, which was designed for use in high-vibration environments. It is commonly used with both single-mode optical fiber and polarization-maintaining optical fiber. FC connectors are used in datacom, telecommunications, measurement equipment, and single-mode lasers. They are becoming less common, displaced by SC and LC connectors. The FC connector has been standardized in TIA fiber optic connector intermateability standard EIA/TIA-604-4.",
+        "In fiber-optic communication, a single-mode optical fiber (SMF) is an optical fiber designed to carry light only directly down the fiber - the transverse mode. Modes are the possible solutions of the Helmholtz equation for waves, which is obtained by combining Maxwell's equations and the boundary conditions. These modes define the way the wave travels through space, i.e. how the wave is distributed in space. Waves can have the same mode but have different frequencies. This is the case in single-mode fibers, where we can have waves with different frequencies, but of the same mode, which means that they are distributed in space in the same way, and that gives us a single ray of light. Although the ray travels parallel to the length of the fiber, it is often called transverse mode since its electromagnetic oscillations occur perpendicular (transverse) to the length of the fiber. The 2009 Nobel Prize in Physics was awarded to Charles K. Kao for his theoretical work on the single-mode optical fiber."
+      ]
+    },
+    {
+      "sample_id": "5ae0f4645542997b2ef7d0aa",
+      "source_index": 359,
+      "relevance_score": 0.3076923076923077,
+      "completeness_score": 0.5,
+      "question": "What kind of subgenre of a dark wave music, developed in 1980s in the UK, is using the musical duo from Melbourne, Australia?",
+      "response": "The musical duo from Melbourne, Australia is using elements of ethereal wave, also known as ethereal darkwave, in their music.",
+      "documents": [
+        "Within the broad movement of new-age music, neoclassical new-age music is influenced by and sometimes also based upon early, baroque or classical music, especially in terms of melody and composition. The artist may offer a modern arrangement of a work by an established composer or combine elements from classical styles with modern elements to produce original compositions. Many artists within this subgenre are classically trained musicians. Although there is a wide variety of individual styles, neoclassical new-age music is generally melodic, harmonic, and instrumental, using both traditional musical instruments as well as electronic instruments. Similar neoclassical elements can often be found within other genres besides new-age music, including electronic music, minimalist music, post-rock music and neoclassical dark wave music.",
+        "Ethereal wave, also called ethereal darkwave, ethereal goth or simply ethereal, is a subgenre of dark wave music and is variously described as \"gothic\", \"romantic\", and \"otherworldly\". Developed in the early 1980s in the UK as an outgrowth of gothic rock, ethereal was mainly represented by 4AD bands such as Cocteau Twins and early guitar-driven Dead Can Dance.",
+        "Dandelion Wine are a musical duo based in Melbourne, Australia. The band combines medieval and Middle Eastern instruments with electronic beats, analogue synths, female vocals and swirling guitars. Their music incorporates elements of ethereal, medieval, world music, dream pop, electronica and darkwave. Their three most recent albums were released on the German label Black Rain's Ars Musica Diffundére sub-label.",
+        "Oneiroid Psychosis is an American dark wave musical duo consisting of brothers Lars and Leif Hansen. Originally known simply as Psychosis, they were discovered by Decibel Records in 1993 and have been making music using the name Oneiroid Psychosis since."
+      ]
+    },
+    {
+      "sample_id": "5ade6acf554299728e26c71a",
+      "source_index": 214,
+      "relevance_score": 0.7272727272727273,
+      "completeness_score": 0.375,
+      "question": "Between Yasujirō Ozu and Bent Hamer, who has more creative titles?",
+      "response": "Yasujirō Ozu has more creative titles, as he directed \"I Was Born, But...\" and \"Good Morning\" which both have unique and creative titles. Bent Hamer's works are not mentioned to have similarly creative titles.",
+      "documents": [
+        "Bent Hamer (born 18 December 1956) is a film director, writer and producer, born in Sandefjord, Norway in 1956.",
+        "I Was Born, But... (Japanese: 大人の見る絵本　生れてはみたけれど \"Otona no miru ehon - Umarete wa mita keredo\" \"An Adult's Picture Book View — I Was Born, But...\") is a 1932 black-and-white Japanese silent film directed by Yasujirō Ozu. It became the first of six Ozu films to win the Kinema Junpō Critics' Prize. Ozu later loosely remade the film as \"Good Morning\" (1959).",
+        "Yasujirō Ozu (小津 安二郎 , Ozu Yasujirō , 12 December 1903 – 12 December 1963) was a Japanese film director and screenwriter. He began his career during the era of silent films. Ozu first made a number of short comedies, before turning to more serious themes in the 1930s.",
+        "Tokyo-Ga is a 1985 documentary film (shot in spring 1983) directed by Wim Wenders ostensibly about filmmaker Yasujirō Ozu. The film ranges from explicit focus on Ozu's filmmaking—Wenders interviews Ozu’s regular cinematographer, Yuharu Atsuta, and one of Ozu’s favorite actors, Chishū Ryū—to scenes of contemporary Tokyo such as pachinko and plastic food displays. Wenders introduces the film as a \"diary on film.\" It was screened in the Un Certain Regard section at the 1985 Cannes Film Festival."
+      ]
+    },
+    {
+      "sample_id": "5a73aeb855429908901be311",
+      "source_index": 112,
+      "relevance_score": 0.2631578947368421,
+      "completeness_score": 0.2,
+      "question": "Who is a guest in the final two episodes of season eighteen of South Park?",
+      "response": "YouTube celebrity PewDiePie appears as himself in the final two episodes of season eighteen of South Park.",
+      "documents": [
+        "\"#REHASH\" is the ninth episode in the eighteenth season of the American animated television series \"South Park\". The 256th overall episode, it was written and directed by series co-creator and co-star Trey Parker. The episode premiered on Comedy Central in the United States on December 3, 2014. The episode is part one of the two-part season finale. The episode lampoons the popularity of Internet Let's Play celebrities and the phenomena of Internet trending topics that lack actual relevance. The episode also references and intertwined multiple elements from previous episodes in the eighteenth season of \"South Park\". YouTube celebrity PewDiePie plays himself in this episode.",
+        "Suomen Robinson 2005, was the second season of the Finnish version of Expedition Robinson, or Survivor as it is referred to in some countries and it aired in late 2005. Immediately upon arriving to the island the contestants were forced to compete in two challenges in order to determine who would be eliminated. The two contestants, Elena Sinkevitch and Mari Jalonen, were both sent to a secret island. As a major twist this season, during the pre-merge portion of the game when a contestant was voted out they would move to a secret island where they would compete against two other contestants to remain in the game. The two contestants left on the secret island following the final duel, Elena Sinkevitch and Markku Markkanen, joined the other members of the merge tribe. The contestants were then divided up into two tribes known as \"Goal\" and \"Texas\". When it came time for the final four, the contestants took part in the infamous \"plank\" competition in which Jasna Preselj was eliminated and Markku Markkanen advanced to the final two. The other two contestants then took part in one more challenge in which Mira Jantunen won and advanced to the final two while Elena Sinkevitch was eliminated. The final two then took part in a duel which Mira Jantunen won and earned an extra jury vote for herself. Along with this, Mira also won the audience's jury vote. Ultimately, it was Mira Jantunen who won this season over Markku Markkanen by a unanimous jury vote of 11-0.",
+        "\"#HappyHolograms\" is the tenth and final episode in the eighteenth season of the American animated television series \"South Park\". The 257th episode overall, it was written and directed by series co-creator and co-star Trey Parker. The episode premiered on Comedy Central in the United States on December 10 2014. It is the second part of the two-part season finale which began with the previous episode, \"#REHASH\". The episode makes multiple references to earlier episodes over the season, as well as to previous seasons, while mainly lampooning the trend of culture constantly making trending topics with no actual relevance. It also lampoons news events such as the death of Eric Garner, the shooting of Michael Brown, the sexual assault allegations against Bill Cosby, and the use of celebrity holograms. YouTube celebrity PewDiePie appeared as himself, continuing his story line from the previous episode.",
+        "Survivor Africa: Panama was the first pan-regional season of the television show \"Survivor\" to air in central or southern Africa and it included contestants from the countries of Botswana, Ethiopia, Ghana, Kenya, Namibia, Nigeria, Zambia, and Zimbabwe. The show was broadcast on the channel M-net from September 3, 2006, to November 19, 2006, during which time twelve episodes aired. The contestants for this season were initially split into two tribes, the Embera tribe, named after Panama's semi-nomadic and heavily body-painted tribe, whose buffs were blue, and the Kuna tribe, named after a traditionally matriarchal and politically organised people of Panama, whose buffs were red. During the pre-merge portion of the program the Embera tribe dominated as they won the majority of both the reward and immunity challenges while Kuna saw their numbers dwindle from six to three. When the tribes merged into the Nagual tribe their buff colors may have changed to yellow, but their original tribal alliances remained and the former members of Embera quickly voted out Yagazie \"Yaga\" Chuwumerje and Nana Sarpong, leaving Metasebia \"Meti\" Yilma as the only former Kuna member left in the game. Following the elimination of Nana, Tsholofelo \"Tebby\" Gasenelwe approached Meti and Olanike \"Nike\" Gbolahan about forming an all-girl alliance. Once formed, the girl alliance, along with Jeremiah Zulu, voted out both Leonard Mapuranga and the leader of the former Embera alliance, Derrick Assetto. When it came time for the final four, the contestants competed in two challenges in order to determine the final two. The first of these challenges was the \"plank\" challenge. As Meti was the first person to fall off the plank, she was eliminated from the game. As Tebby was the last person to fall off the plank, she automatically advanced to the final two. The other two contestants competed in a second challenge which Jeremiah won and advanced to the final two while Nike was eliminated. Ultimately, it was Gasenelwe from Botswana who won this season over Jeremiah Zulu with a jury vote of 6–0."
+      ]
+    },
+    {
+      "sample_id": "5ae75c395542991bbc9761f7",
+      "source_index": 229,
+      "relevance_score": 0.14285714285714285,
+      "completeness_score": 1.0,
+      "question": "The revue Putting It Together was devised by Stephen Sondheim and what actress best known as Miss Marple?",
+      "response": "The revue Putting It Together was devised by Stephen Sondheim and Julia McKenzie, best known for her role as Miss Marple.",
+      "documents": [
+        "Julia Kathleen McKenzie (born 17 February 1941) is an English actress, singer, presenter, and theatre director. On television, she is known for her BAFTA Award nominated role as Hester Fields in the sitcom \"Fresh Fields\" (1984–86) and its sequel \"French Fields\" (1989–91), and as Miss Marple in \"Agatha Christie's Marple\" (2008–13).",
+        "Putting it Together is a musical revue showcasing the songs of Stephen Sondheim. Drawing its title from a song in \"Sunday in the Park with George\", it was devised by Sondheim and Julia McKenzie. The revue has received several productions, beginning with its premiere in England in 1992, Broadway in 1999 and the West End in 2014.",
+        "Ben Wright (born September 3, 1969) is best known for originating the role of \"Jack\" in the Tony Award-winning musical \"Into the Woods\". Wright's professional acting career started with George C. Wolfe's Off-Broadway production of \"Paradise\" at Playwrights Horizons. He then went on to originate leading roles on Broadway in Stephen Sondheim's \"Into The Woods\" and the Tony nominated \"State Fair\", for which he received a Drama Desk Nomination. He also created the role of Nanki Poo in Hot Mikado at the Ford's Theater in Washington, D.C. He has worked extensively with some of Broadway’s greatest talents, including Stephen Sondheim, James Lapine, Bernadette Peters, James Hammerstein, Paul Gemignani and Joanna Gleason. Wright's feature film credits include the Academy Award winning \"Born on the Fourth of July\" with Tom Cruise as well as Penny Marshall's \"Renaissance Man\" with Danny DeVito. Wright's television credits include starring opposite Judd Nelson in NBC's \"\" and the ABC drama series \"Capital News\" with Lloyd Bridges and Helen Slater. Wright has performed at the Tony Awards two times and can be heard on several albums, including the original cast recording of State Fair and the Grammy Award winning recording of \"Into the Woods\".",
+        "George Pollock (March 27, 1907 – December 22, 1979) was a British film director, best known for bringing Agatha Christie's famous detective Miss Marple to the big screen for the first time, starring Margaret Rutherford."
+      ]
+    },
+    {
+      "sample_id": "5a7d2ecc5542995ed0d16629",
+      "source_index": 301,
+      "relevance_score": 0.2,
+      "completeness_score": 1.0,
+      "question": "Robbie Tucker plays in what series that follows a group of friends who run an Irish bar?",
+      "response": "Robbie Tucker played in the series \"It's Always Sunny in Philadelphia\", which follows a group of friends who run the Irish bar Paddy's Pub in South Philadelphia.",
+      "documents": [
+        "Robbie Tucker (born April 5, 2001) is an American actor. His best known role to date is that of Fenmore Baldwin on the CBS soap opera \"The Young and the Restless\". Tucker has also starred on other series, such as \"Criminal Minds\", \"FlashForward\" and \"It's Always Sunny in Philadelphia\". He has also appeared in the films \"Prom\" and \"Little Fockers\".",
+        "O'Shaughnessy was born on December 22, 1850 in Dublin, son of Thomas O'Shaughnessy and Mary Lopdell. He married Catherine Newman in 1879 and they had four children. He died at his home in Fitzwilliam Square, Dublin on March 7, 1933. Educated at Queens College Galway, he was called to the Irish Bar in 1874 and to the English Bar by Middle Temple in 1894.",
+        "Henry Archer (1799–1863) was the son of an Irish landowner and was educated at Trinity College, Dublin. He was called to the Irish Bar and spent most of his time between North Wales and London.",
+        "It's Always Sunny in Philadelphia is an American television black comedy sitcom that premiered on FX on August 4, 2005. It moved to FXX beginning with the ninth season, and has remained there since. It was created by Rob McElhenney, who developed it with Glenn Howerton. It is executive produced and primarily written by McElhenney, Howerton, and Charlie Day, all of whom star alongside Kaitlin Olson and Danny DeVito. The series follows the exploits of \"The Gang\", a group of debauched self-centered friends who run the Irish bar Paddy's Pub in South Philadelphia."
+      ]
+    },
+    {
+      "sample_id": "5a7f38e255429930675136b6",
+      "source_index": 142,
+      "relevance_score": 0.16666666666666666,
+      "completeness_score": 1.0,
+      "question": "The Ronkonkama railroad station and the town of Islip, New York are near?",
+      "response": "Yes, the Ronkonkama railroad station and the town of Islip, New York are near each other. Ronkonkama is a hamlet and census-designated place (CDP) in the Town of Islip, New York.",
+      "documents": [
+        "Ronkonkoma ( ) is a hamlet and census-designated place (CDP) on Long Island in the Town of Islip, New York, United States. The population of the CDP was 19,082 at the 2010 census.",
+        "The Jamestown Gateway Train Station, also known as the Jamestown Erie Railroad station, and the Erie-Lackawanna Railroad Station, is a historic train station located at Jamestown in Chautauqua County, New York. Although no longer an active railroad station due to a lack of passenger service in the area after a restoration done in 2011 the building currently serves as a bus transportation center and community space for Jamestown. The first train arrived at Jamestown on August 25, 1860 as part of the Atlantic and Great Western Railroad.",
+        "Ronkonkoma is a major railroad station and transportation hub along the Main Line of the Long Island Rail Road in Ronkonkoma, New York. The station is the eastern terminus of the Ronkonkoma Branch and the western terminus of the out Branch.",
+        "Cambridge Springs (formerly Cambridge) was a railroad station for the Erie Railroad in Cambridge Springs, Crawford County, Pennsylvania, United States. Cambridge Springs station was on the Main Line's Meadville Division, which was the section of the line between Salamanca, New York and Meadville, Pennsylvania. The station was located 501.2 mi from Manhattan and the Barclay Street Ferry, which connected to Pavonia Terminal in Jersey City, New Jersey and 480.8 mi from Hoboken Terminal in Hoboken, New Jersey. For nearly three decades, the station had connections to the Northwestern Pennsylvania Railway, which was a trolley line that connected the city of Erie and Meadville. Modern Erie Railroad station signage denoted the station as \"Home of Alliance College,\" a local private university that closed in 1987."
+      ]
+    },
+    {
+      "sample_id": "5add813e5542992200553b46",
+      "source_index": 3,
+      "relevance_score": 0.2727272727272727,
+      "completeness_score": 0.6666666666666666,
+      "question": "Eddie Jemison had a role in the television series \"IZombie\", which premiered on what date?",
+      "response": "March 17, 2015",
+      "documents": [
+        "Dream School is an American reality television series on SundanceTV that premiered on October 7, 2013. The series follows fifteen high school dropouts as they are taught by a series of celebrity \"teachers\", including actor David Arquette, conservationist Jeff Corwin, civil rights activist Jesse Jackson, astronaut Mae Jemison, television journalist Soledad O'Brien, financial expert Suze Orman, filmmaker Oliver Stone, and musician Swizz Beatz. The series is an adaptation of British television show \"Jamie's Dream School\", created by celebrity chef Jamie Oliver, and is produced by Oliver and rapper Curtis \"50 Cent\" Jackson.",
+        "Edward Francis \"Eddie\" Jemison, Jr. (born 1963) is an American film and television actor. He is known for his roles in the \"Ocean's Eleven\" trilogy and the television series \"Hung\" and IZombie.",
+        "\"iZombie\" (stylized as \"iZOMBiE\") is an American television series developed by Rob Thomas and Diane Ruggiero-Wright for The CW. It is a loose adaptation of the comic book series of the same name created by Chris Roberson and Michael Allred, and published by DC Comics under their Vertigo imprint. The series premiered on March 17, 2015.",
+        "iZombie (stylized as iZOMBiE) is an American television series developed by Rob Thomas and Diane Ruggiero-Wright for The CW. It is a loose adaptation of the comic book series of the same name created by Chris Roberson and Michael Allred, and published by DC Comics under their Vertigo imprint. The series premiered on March 17, 2015."
+      ]
+    },
+    {
+      "sample_id": "5a75f79555429976ec32bcca",
+      "source_index": 388,
+      "relevance_score": 0.07142857142857142,
+      "completeness_score": 0.5,
+      "question": "Considered the strongest recorded tropical cyclone, which cyclone had a film made about it in 2007?",
+      "response": "The 1999 Odisha cyclone had a film made about it in 2007 called Kathantara (Another Story).",
+      "documents": [
+        "Intense Tropical Cyclone Hondo (JTWC designation: 16S) was the strongest and longest lived tropical cyclone to develop during the 2007–08 South-West Indian Ocean cyclone season. The third tropical cyclone and first intense tropical cyclone of the season, Hondo developed out of a tropical disturbance in early February about 1,020 km (635 mi) east-southeast of Diego Garcia. The disturbance quickly strengthened, becoming a moderate tropical storm on February 4 and a severe tropical storm the following day. After a brief period of slower intensification, Hondo rapidly intensified into an intense tropical cyclone and reached its peak intensity with winds of 215 km/h (130 mph ) on February 7. The cyclone gradually weakened over the next several days due to an increase in forward speed and a decrease in sea surface temperatures. On February 12, Hondo rapidly degenerated into a remnant-low pressure area. Over the following week, the remnant low traveled in a general west-northwest direction with no development. On February 20, about 2,780 km (1,725 mi) northeast of where the final advisories were issued, the storm began to regenerate. The next day, advisories were issued on Tropical Disturbance Ex-Hondo, which briefly strengthened into a tropical depression. However, according to the Joint Typhoon Warning Center, Hondo continued to strengthen and attained winds of 95 km/h (60 mph ) before passing directly over Réunion. Interaction with the island caused the storm to weaken and degenerate into a remnant low once more. The storm dissipated on February 29 after executing a counterclockwise loop.",
+        "The 1999 Odisha cyclone (IMD designation BOB 03, JTWC designation 05B) was the strongest recorded tropical cyclone in the North Indian Ocean and among the most destructive in the region. The 1999 Odisha cyclone organized into a tropical depression in the Andaman Sea on 25 October, though its origins could be traced back to an area of storms in the Sulu Sea four days prior. The disturbance gradually strengthened as it took a west-northwesterly path, reaching cyclonic storm strength the next day. Taking advantage of highly favorable conditions, the storm rapidly intensified, attaining super cyclonic storm intensity on 28 October before peaking with winds of 260 km/h (160 mph) and a record-low pressure of 912 mbar (hPa; 26.93 inHg). The storm maintained this intensity as it made landfall on Odisha on 29 October. The cyclone steadily weakened due to persistent land interaction and dry air, remaining quasi-stationary for two days before slowly drifting offshore as a much weaker system; the storm dissipated on 1 November over the Bay of Bengal.",
+        "Kathantara (Odia: କଥାନ୍ତର , English \"Another Story\") is a 2007 Indian Oriya language disaster film directed by Himansu Khatua, a story of tribulations of the 1999 Odisha cyclone.",
+        "Severe Tropical Cyclone Anne was one of the most intense tropical cyclones within the South Pacific basin during the 1980s. The cyclone was first noted on January 5, 1988 as a weak tropical depression to the northeast of Tuvalu, in conjunction with the future Typhoon Roy in the North-Western Pacific basin. Over the next few days, the system gradually developed while moving southwestward. Once it became a tropical cyclone, it was named Anne on January 8. The next day, Anne rapidly intensified, becoming the fourth major tropical cyclone to affect Vanuatu within four years. On January 11, Anne peaked in intensity while it was equivalent to a Category 5 on the Saffir–Simpson hurricane wind scale, and a Category 4 on the Australian tropical cyclone intensity scale. After turning southward on January 12, Anne struck New Caledonia, becoming the strongest tropical cyclone to affect the French Overseas Territory. The system subsequently weakened as it started to interact with Tropical Cyclone Agi. Anne weakened into a depression and was last noted on January 14 to the south-east of New Caledonia."
+      ]
+    },
+    {
+      "sample_id": "5ae4d2a55542990ba0bbb161",
+      "source_index": 81,
+      "relevance_score": 0.15,
+      "completeness_score": 0.6666666666666666,
+      "question": "Giselle Cossard was known as Mother Giselle of what type of diety?",
+      "response": "Giselle Cossard was known as Mother Giselle of Yemoja, a major water deity from the Yoruba religion.",
+      "documents": [
+        "The \"Type A Ko-hyoteki\" (甲標的甲型 , Kō-hyōteki kō-gata , Target 'A', Type 'A') class was a class of Japanese midget submarines (\"Ko-hyoteki\") used during World War II. They had hull numbers but no names. For simplicity, they are most often referred to by the hull number of the mother submarine. Thus, the midget carried by \"I-16\"-class submarine was known as I-16's boat, or \"I-16tou.\"",
+        "Giselle Cossard Binon Omindarewa, (31 May 1923, Tangier - 21 January 2016, Duke of Caxias), Mãe-de-santo of Candomblé of Rio de Janeiro, was a French Brazilian anthropologist and writer. She was also known as Mother Giselle of Yemoja, Daughter of Saint John of Goméia, Initiated for the Orisha Yemoja.",
+        "The Theotokos of Vladimir (Greek: Θεοτόκος του Βλαντίμιρ ), also known as Our Lady of Vladimir, Vladimir Mother of God, or Virgin of Vladimir (Russian: Владимирская Икона Божией Матери ) is a medieval Byzantine icon of the Virgin and Child. In 1169 Andrei Bogolyubsky sacked Kiev, and, after plundering the city, stole much religious artwork, including a Byzantine \"Mother of God\" icon which was transferred to Vladimir (for references see Yury Dolgorukiy and Andrey Bogolyubskiy). It is one of the most venerated Orthodox icons and a fine and early example of the iconography of the \"Eleusa\" (tenderness) type, with the Christ child snuggling up to his mother's cheek. The \"Theotokos\" (Greek for Virgin Mary, literally meaning \"Birth-Giver of God\") is regarded as the holy protectress of Russia. The icon is displayed in the Tretyakov Gallery, Moscow in a functioning church in the grounds of the museum. Her feast day is June 23rd o.s. / July 6th n.s. Even more than most famous icons, the original has been copied repeatedly for centuries, and many copies have considerable artistic and religious significance of their own.",
+        "Yemoja (Yoruba: \"Yemọja\" ) is a major water deity from the Yoruba religion. She is an orisha and the mother of all orishas, having given birth to the 14 Yoruba gods and goddesses. She is often syncretized with either Our Lady of Regla in the afrocuban diaspora or various other Virgin Mary figures of the Catholic Church, a practice that emerged during the era of the Trans-Atlantic slave trade. Yemoja is motherly and strongly protective, and cares deeply for all her children, comforting them and cleansing them of sorrow. She is said to be able to cure infertility in women, and cowrie shells represent her wealth. She does not easily lose her temper, but when angered she can be quite destructive and violent, as the flood waters of turbulent rivers."
+      ]
+    },
+    {
+      "sample_id": "5ab29ec6554299194fa93473",
+      "source_index": 357,
+      "relevance_score": 0.23809523809523808,
+      "completeness_score": 0.6,
+      "question": "The film series created by the team up of Robert Rodriguez and Ethan Maniquis created it lead character from a character in what other films series?",
+      "response": "Machete, the lead character in the film series created by Robert Rodriguez and Ethan Maniquis, originated from the \"Spy Kids\" films and the \"Grindhouse\" fake trailer.",
+      "documents": [
+        "Earl McGraw and his son Edgar McGraw are two fictional characters played by Michael Parks and James Parks. They appear in several feature films by Robert Rodriguez and Quentin Tarantino, including the \"From Dusk till Dawn\" franchise, \"\", and in various works from the \"Grindhouse\" project. Despite being killed off in his first appearance in \"From Dusk till Dawn\", various characters named Earl and Edgar have returned in several other films from Rodriguez and Tarantino. Talking with a heavy Texas accent and delivering profanity laden dialogue, the Earl character often serves as comic relief. He and Edgar are consistently portrayed as Texas Rangers. Edgar is portrayed by James Parks, the real-life son of Michael Parks. Earl has a daughter who is introduced in the \"Grindhouse\" films, named Dakota, played by Marley Shelton, who plays a large role in \"Planet Terror\". Dakota also appears in the portrayed by Nicky Whelan.",
+        "Machete is a 2010 American action film written, produced, and directed by Robert Rodriguez and Ethan Maniquis. This film is an expansion of a fake trailer that was included in Rodriguez's and Quentin Tarantino's 2007 \"Grindhouse\" double-feature. \"Machete\" continues the B movie and exploitation style of \"Grindhouse\", and includes some of the footage. The film stars Danny Trejo in his first lead role as the title character, and co-stars Robert De Niro, Jessica Alba, Don Johnson, Michelle Rodriguez, Steven Seagal, Lindsay Lohan, Cheech Marin and Jeff Fahey. This was Steven Seagal's first theatrically released film in eight years since his starring role in 2002's \"Half Past Dead\". \"Machete\" was released in the United States by 20th Century Fox and Rodriguez's company, Troublemaker Studios, on September 3, 2010. A sequel, \"Machete Kills\", was released on October 11, 2013.",
+        "Roadracers is a 1994 made-for-television film directed by Robert Rodriguez, his second feature film following the success of his 1992 debut, \"El Mariachi\". The film originally aired on Showtime Network as part of their \"Rebel Highway\" series that took the titles of 1950s-era B-movies and applied them to original films starring up-and-coming actors of the 1990s (including the likes of Alicia Silverstone and Shannen Doherty) and directed by established directors such as William Friedkin, Joe Dante, and Ralph Bakshi. Rodriguez was the only young director to participate in the series. The series was produced by the son and daughter of Samuel Z. Arkoff, the co-founder and producer of American International Pictures (AIP), the distributor of the films this series takes its titles from.",
+        "Isador Cortez, also known as Machete, is a fictional character in the four \"Spy Kids\" films, the \"Grindhouse\" fake trailer, and the \"Machete\" and \"Machete Kills\" films. The character is played by Danny Trejo."
+      ]
+    },
+    {
+      "sample_id": "5adfed5e55429942ec259b92",
+      "source_index": 174,
+      "relevance_score": 0.17647058823529413,
+      "completeness_score": 0.6666666666666666,
+      "question": "What city does the company that owns Bumble and bumble have its headquarters in?",
+      "response": "The company that owns Bumble and bumble, Estée Lauder Companies Inc., has its headquarters in Midtown Manhattan, New York City.",
+      "documents": [
+        "Swarth Group is a private equity company, owned by Israeli investor Shaul Shani. In 2007, it purchased Israeli ECI Telecom for $ 1.24 billion. The company headquarters are in Petah Tikva, Israel. The company specialises in Telecoms. In 2008, it acquired a 16.44% share of GVT Holding, which owns GVT Holland, and itself owns 22.9% of Brazilian telecom firm Global Village Telecom. The stake was purchased from Nochi Dankner's Discount Investment Corporation Ltd.. In 2009 Swarth group sold its holding in GVT to Vivendi the deal reflects a 15.8% premium on the price paid for it by Swarth in 2008.",
+        "Bumble and bumble Products, LLC is one of 27 brands owned by Estée Lauder Companies, Inc. It was founded as a New York City hair salon in 1977 by hairdresser and entrepreneur Michael Gordon. The company operates two flagship salons in Manhattan: a midtown location on East 56th Street and on the top two floors of The House of Bumble in the Meatpacking District.",
+        "The Estée Lauder Companies Inc. ( ) is an American manufacturer and marketer of prestige skincare, makeup, fragrance and hair care products. The company owns a diverse portfolio of brands, distributed internationally through retail channels and digital commerce, and has its headquarters in Midtown Manhattan, New York City.",
+        "Speedway Motorsports, Inc. (SMI) is an American corporation that owns and manages racing facilities that host NASCAR, IndyCar Series, NHRA, World of Outlaws and other motor racing series. The company's headquarters are located at Charlotte Motor Speedway, in the suburbs of Charlotte, NC. SMI owns nine racing facilities with a combined seating capacity of approximately 885,000. In addition to operating racetracks, SMI owns Performance Racing Network (PRN), U.S. Legends Cars International, and co-owns Motorsports Authentics."
+      ]
+    },
+    {
+      "sample_id": "5a85b0c85542994c784ddb40",
+      "source_index": 79,
+      "relevance_score": 0.3076923076923077,
+      "completeness_score": 0.75,
+      "question": "What institution does 2017 Texas Tech Red Raiders baseball team and Dan Law Field at Rip Griffin Park have in common?",
+      "response": "The 2017 Texas Tech Red Raiders baseball team and Dan Law Field at Rip Griffin Park both have Texas Tech University in common.",
+      "documents": [
+        "The 2015 Texas Tech Red Raiders baseball team will represent Texas Tech University during the 2015 NCAA Division I baseball season. The Red Raiders will play their home games at Dan Law Field at Rip Griffin Park as a member of the Big 12 Conference. They will be led by head coach Tim Tadlock, in his 3rd season at Texas Tech.",
+        "The 2014 Texas Tech Red Raiders baseball team represents Texas Tech University in the 2014 college baseball season. Texas Tech competes in Division I of the National Collegiate Athletic Association (NCAA) as a charter member of the Big 12 Conference. The Red Raiders play home games at Dan Law Field at Rip Griffin Park on the university's campus in Lubbock, Texas. Second year head coach Tim Tadlock leads the Red Raiders, a former starting shortstop for the team during the 1990 and 1991 seasons.",
+        "Dan Law Field at Rip Griffin Park, nicknamed \"The Law\", is the home stadium of the Texas Tech Red Raiders baseball team in Lubbock, Texas. It is located on the Texas Tech University campus, adjacent to Jones AT&T Stadium and Fuller Track. Dan Law Field was rated as one of the top three places to watch a college baseball game by \"Sports Illustrated On Campus\".",
+        "The 2017 Texas Tech Red Raiders baseball team represents Texas Tech University during the 2017 NCAA Division I baseball season. The Red Raiders play their home games at Dan Law Field at Rip Griffin Park as a member of the Big 12 Conference. They are led by head coach Tim Tadlock, in his 5th season at Texas Tech."
+      ]
+    },
+    {
+      "sample_id": "5a8900c75542997e5c09a6ed",
+      "source_index": 110,
+      "relevance_score": 0.25,
+      "completeness_score": 1.0,
+      "question": "What ingredient is in both Cosmopolitan and Cuba Libre?",
+      "response": "The ingredient that is in both Cosmopolitan and Cuba Libre is lime juice.",
+      "documents": [
+        "\"Cuba Libre\" (\"Free Cuba\") is a song by Gloria Estefan, released as the third single from her eighth studio album, \"Gloria!\".",
+        "Liquorice Stick ( ) or alternatively spelled Licorice Stick, also known as a \"Regaliz,\" is a highball (cocktail) made of cola, anisette or absinthe, and black licorice as a garnish. It originated in Terceira Island, Azores, Portugal where it was called a \"pauzinho de alcaçuz\" as an alternative to the rum and cola drink called a \"cuba libre\". In Spain it is called a \"palito de orozuz\". It was introduced into the U.S. through the Portuguese communities in Massachusetts and Rhode Island.",
+        "A cosmopolitan, or informally a cosmo, is a cocktail made with vodka, triple sec, cranberry juice, and freshly squeezed or sweetened lime juice.",
+        "The Cuba Libre ( ; ] , \"Free Cuba\") is a caffeinated alcoholic cocktail made of cola, lime, and dark or light rum. This cocktail is often referred to as a Rum and Coke in the United States, Canada, the UK, Ireland, India, Singapore, Australia and New Zealand where the lime juice may or may not be included."
+      ]
+    },
+    {
+      "sample_id": "5a7d043755429909bec768f7",
+      "source_index": 172,
+      "relevance_score": 0.14285714285714285,
+      "completeness_score": 1.0,
+      "question": "William James \"Count\" Basie has an album that is a collection of musical pieces from what movie series?",
+      "response": "William James \"Count\" Basie has an album that is a collection of musical pieces from the first four James Bond films.",
+      "documents": [
+        "Basie Meets Bond is a 1966 album by Count Basie and his orchestra. The album is a collection of musical pieces from the first four James Bond films; \"Dr No\", \"From Russia with Love\", \"Goldfinger\" and \"Thunderball\". The album was Basie's first for United Records, and was produced by Teddy Reig.",
+        "\"One O'Clock Jump\" is a jazz standard, a 12-bar blues instrumental, written by Count Basie in 1937. The melody derived from band members' riffs--Basie rarely wrote down musical ideas, so Eddie Durham and Buster Smith helped him crystallize his ideas. The original 1937 recording of the tune by Basie and his band is noted for the saxophone work of Herschel Evans and Lester Young, trumpet by Buck Clayton, Walter Page on bass and Basie himself on piano.",
+        "William James \"Count\" Basie (August 21, 1904 – April 26, 1984) was an American jazz pianist, organist, bandleader, and composer. His mother taught him to play the piano and he started performing in his teens. Dropping out of school, he learned to operate lights for vaudeville and to improvise accompaniment for silent films at a local movie theater in his home town of Red Bank, New Jersey. By age 16, he increasingly played jazz piano at parties, resorts and other venues. In 1924, he went to Harlem, where his performing career expanded; he toured with groups to the major jazz cities of Chicago, St. Louis and Kansas City. In 1929 he joined Bennie Moten's band in Kansas City, and played with them until Moten's death in 1935.",
+        "Basie on the Beatles is an album by pianist and bandleader Count Basie featuring performances recorded in late 1969 and released on the short-lived Happy Tiger label. It was Basie's second album of Beatles' compositions following 1966's \"Basie's Beatle Bag\" and featured liner notes by Ringo Starr."
+      ]
+    },
+    {
+      "sample_id": "5ae74351554299572ea5479f",
+      "source_index": 194,
+      "relevance_score": 0.23529411764705882,
+      "completeness_score": 0.75,
+      "question": "What friend of a performance artist and professional wrestler has performed in the role of Tony Clifton?",
+      "response": "Bob Zmuda, a longtime friend of Andy Kaufman, has also performed the role of Tony Clifton.",
+      "documents": [
+        "Andrew G. Kaufman (January 17, 1949 – May 16, 1984) was an American comedian, actor, writer, performance artist and professional wrestler. While often referred to as a comedian, Kaufman described himself instead as a \"song and dance man.\" He disdained telling jokes and engaging in comedy as it was traditionally understood, once saying in a rare introspective interview, \"I am not a comic, I have never told a joke. ... The comedian's promise is that he will go out there and make you laugh with him. ... My only promise is that I will try to entertain you as best I can.\"",
+        "Wilhelm Baumann (September 4, 1884 – September 15, 1972), better known as Billy Sandow, was an American professional wrestler and promoter. He is best remembered as the manager of professional wrestler Ed \"Strangler\" Lewis and a subsequent member of the famed Gold Dust Trio promotion that changed the face of the industry during the 1920s (along with Lewis and Joseph \"Toots\" Mondt). He may have taken his ring name from Eugen Sandow, a professional wrestler and strongman in the late 19th century; in turn, former WWE wrestler Damien Sandow would adopt his own ring name in honor of Sandow almost a century later. Sandow also served as manager for such wrestling champions as Billy Jenkins, Marin Plestina, Jumping Joe Savoldi and Everett Marshall, and also used the ring name The Zebra Kid in 1951. He was a charter inductee of the Wrestling Observer Newsletter Hall of Fame in 1996.",
+        "Tony Clifton is a character created by late performance artist Andy Kaufman, who also portrayed him in the late 1970s. Characteristic of the many elaborate hoaxes and practical jokes Kaufman concocted, Clifton was not exclusively portrayed by Kaufman. Others, mainly longtime Kaufman friend Bob Zmuda, also performed the role.",
+        "Robert Keith Orton Jr. (born November 10, 1950), better known by the ring name \"Cowboy\" Bob Orton, is an American professional wrestler. He is the son of professional wrestler Bob Orton Sr., the brother of professional wrestler Barry Orton, and the father of professional wrestler Randy Orton. He is best known for his time in the WWF (World Wrestling Federation, now WWE). He has also wrestled for several promotions in the United States, Japan, and other countries."
+      ]
+    },
+    {
+      "sample_id": "5ab627d555429953192ad27e",
+      "source_index": 49,
+      "relevance_score": 0.3076923076923077,
+      "completeness_score": 0.25,
+      "question": "About Time is a  British romantic comedy-drama film that stars an Irish actor and writer who recieved a Bachelor of Arts from where?",
+      "response": "Dublin Institute of Technology.",
+      "documents": [
+        "About Time is a 2013 British romantic comedy-drama film about a young man with the special ability to time travel who tries to change his past in order to improve his future. The film was written and directed by Richard Curtis, and stars Domhnall Gleeson, Rachel McAdams and Bill Nighy. It was released in the United Kingdom on 4 September 2013.",
+        "Domhnall Gleeson ( ; born 12 May 1983) is an Irish actor and writer. He is the son of actor Brendan Gleeson, alongside whom he has appeared in several films and theatre projects. He received a Bachelor of Arts in Media Arts from Dublin Institute of Technology.",
+        "Salmon Fishing in the Yemen is a 2011 British romantic comedy-drama film directed by Lasse Hallström and starring Ewan McGregor, Emily Blunt, Kristin Scott Thomas and Amr Waked. Based on the 2007 novel of the same name by Paul Torday, and a screenplay by Simon Beaufoy, the film is about a fisheries expert who is recruited by a consultant to help realize a sheikh's vision of bringing the sport of fly fishing to the Yemen desert, initiating an upstream journey of faith to make the impossible possible. The film was shot on location in London, Scotland, and Morocco from August to October 2010. The film premiered at the 2011 Toronto International Film Festival. The film received generally positive reviews upon its release, and earned $34,564,651 in revenue worldwide.",
+        "A Royal Night Out is a 2015 British romantic comedy-drama film directed by Julian Jarrold and written by Trevor de Silva and Kevin Hood. The film stars Sarah Gadon as the young Princess Elizabeth, who with Princess Margaret (Bel Powley) ventures out of Buckingham Palace to enjoy the VE Day celebrations."
+      ]
+    },
+    {
+      "sample_id": "5a8ac38855429970aeb70300",
+      "source_index": 183,
+      "relevance_score": 0.25,
+      "completeness_score": 0.2,
+      "question": "When was the colony William Bradford was governor of founded?",
+      "response": "The Plymouth Colony, of which William Bradford was the governor, was founded in 1620.",
+      "documents": [
+        "Born in Somerville, Massachusetts, on May 20, 1862, Mabel Keyes Babcock was the daughter of botanist Henry H. Babcock and Mary Porter (Keyes) Babcock. She was a descendant of William Bradford, the governor of Plymouth Colony. Both of her parents were involved in education: Henry was for a time the principal of Somerville High School in Massachusetts, while Mary, after Henry died, became the headmistress of Kenilworth Hall, a girls' school in the Chicago area.",
+        "Parker was born in 1714 in Woodbridge Township, New Jersey. When he was eleven-years-old, his father died. Parker apprenticed himself on a servant indenture on January 1, 1727 for eight years to William Bradford, the colonial printer in New York City. The agreement terms were that Bradford was to feed and provide for Parker in exchange for labor the boy would do. Bradford was also to train Parker the skills of the printing trade. Parker became a liability instead of an asset for Bradford when there was little printing work available. He decided in April 1733 to sell the remaining 21 months left on Parker's servant indenture and advertised the sale of his indenture. Parker ran away on May 17 before Bradford had a chance to sell the remaining indenture. Parker became a \"wanted man,\" and Bradford advertised a reward for his capture in his \"New-York Gazette\" newspaper. The runaway ad described Parker as \"an Apprentice lad...by trade a Printer, aged about 19 years; he is of a fresh Completion with short yellowish hair.\" A reward was offered, which was doubled a short time later.",
+        "Plymouth Colony (sometimes New Plymouth) was an English colonial venture in North America from 1620 to 1691. The first settlement of the Plymouth Colony was at New Plymouth, a location previously surveyed and named by Captain John Smith. The settlement served as the capital of the colony and developed as the modern town of Plymouth, Massachusetts. At its height, Plymouth Colony occupied most of the southeastern portion of the modern state of Massachusetts.",
+        "Major William Bradford (a.k.a. William Bradford IV and William Bradford the Younger) (16 June 1624 – 20 February 1703) was a political and military leader in Plymouth Colony in the late 17th century."
+      ]
+    },
+    {
+      "sample_id": "5ab5820e554299488d4d99c3",
+      "source_index": 176,
+      "relevance_score": 0.3333333333333333,
+      "completeness_score": 0.6666666666666666,
+      "question": "What is the capacity, for basketball games, of the venue for the 2014 FIBA Basketball World Cup Final ?",
+      "response": "The capacity for basketball games at the venue for the 2014 FIBA Basketball World Cup Final, Palacio de Deportes de la Comunidad de Madrid, is 15,000 people.",
+      "documents": [
+        "Qualifying for the 2014 FIBA Basketball World Cup to be held in Spain began in earnest on the 2011 Caribbean Championships, a qualifier to the 2012 Centrobasket, which is in itself a qualifier to the 2013 FIBA Americas Championship. The winners of the 2012 Olympic basketball tournament, the United States, qualified outright. The USA joined the host nation Spain, which was earlier elected to host the 2014 FIBA Basketball World Cup in July 2009.",
+        "The 2014 FIBA Basketball World Cup was the 17th edition of the FIBA Basketball World Cup, the tournament previously known as the FIBA World Championship. Hosted by Spain, it was the last tournament to be held on the then-current four-year cycle. The next FIBA World Cup will be held five years later, in 2019, to reset the four-year-cycle on a different year than the FIFA World Cup.",
+        "Palacio de Deportes de la Comunidad de Madrid (English: \"Community of Madrid Sports Centre\"), since November 2016 called WiZink Center for sponsorship reasons, is an indoor sporting arena located in Madrid, Spain. Its capacity is 15,000 people for basketball matches and 15,500 for concerts (with standing public ramp).",
+        "The 2014 FIBA Basketball World Cup Final was a basketball game that took place on 14 September 2014 at Palacio de Deportes de la Comunidad de Madrid in Madrid, Spain, to determine the winner of the 2014 FIBA Basketball World Cup."
+      ]
+    },
+    {
+      "sample_id": "5ae1cb04554299234fd042fd",
+      "source_index": 309,
+      "relevance_score": 0.45454545454545453,
+      "completeness_score": 0.6,
+      "question": "What other things did  blind Arab philosopher who is also  Abd Allah ibn al-Fadl teacher do ",
+      "response": "The blind Arab philosopher and teacher, Abd Allah ibn al-Fadl, also worked as a deacon and the grandson of a bishop. He received an excellent education in both Arabic and Greek, having studied Arabic grammar with the famous poet Abul ʿAla Al-Maʿarri. Several of his works and translations were commissioned by notables from Antioch and neighbouring cities in Muslim territory.",
+      "documents": [
+        "Abul ʿAla Al-Maʿarri (Arabic أبو العلاء المعري \"Abū al-ʿAlāʾ al-Maʿarrī \", full name أبو العلاء أحمد بن عبد الله بن سليمان التنوخي المعري \"Abū al-ʿAlāʾ Aḥmad ibn ʿAbd Allāh ibn Sulaimān al-Tanūẖī al-Maʿarrī \"; December 973 – May 1057) was a blind Arab philosopher, poet, and writer. Al-Maʿarri held and expressed an irreligious world view which was met with controversy, but in spite of it, he is regarded as one of the greatest classical Arabic poets.",
+        "Lisan ad-Din ibn al-Khatib (Born 16 November 1313, Loja– died 1374, Fes, Morocco) (Full name Muhammad ibn Abd Allah ibn Said ibn Ali ibn Ahmad al-Salmani) was a Moroccan Arab polymath poet, writer, historian, philosopher, physician and politician from Emirate of Granada. Some of his poems decorate the walls of the Alhambra in Granada.",
+        "'Umar ibn Abi Rabi'ah al-Makhzumi (November 644, Mecca – 712/719, Mecca, full name: Abū ’l-Khattāb Omar Ibn Abd Allah Ibn Abi Rabia Ibn al-Moghaira Ibn Abd Allah Ibn Omar Ibn Makhzūm Ibn Yakaza Ibn Murra al-Makhzūmi) was an Arabic poet. He was born into a wealthy family of the Quraish tribe of Mecca, his father being Abd Allah and his mother Asmā bint Mukharriba. He was characterised by the biographer Ibn Khallikan as 'the best poet ever produced by the tribe of Koraish'.",
+        "Little is known of his life, apart from what can be gleaned from manuscripts of his texts. He was a deacon and the grandson of a bishop. He received an excellent education in both Arabic and Greek, having studied Arabic grammar with the famous poet Abul ʿAla Al-Maʿarri. Several of his works and translations were commissioned by notables from Antioch and neighbouring cities in Muslim territory."
+      ]
+    },
+    {
+      "sample_id": "5ae1f079554299234fd04343",
+      "source_index": 135,
+      "relevance_score": 0.08695652173913043,
+      "completeness_score": 0.5,
+      "question": "Which county located in the commonwealth of Kentucky is Kentucky Route 393 (KY 393) a state highway in ",
+      "response": "Kentucky Route 393 (KY 393) is a state highway in Oldham County, Kentucky.",
+      "documents": [
+        "Kentucky Route 393 (KY 393) is a state highway in Oldham County, Kentucky, United States. Its northern terminus is US 42. From there it continues 5.5 mi south to a 0.04 mi overlap with KY 146 in Buckner. It then splits south to continue for 2.5 mi where it junctions KY 22 near Centerfield. It follows KY 22 east for 1 mi until it splits to the south. It continues 1.5 mi south and then terminates at Mount Zion Road. There are no low clearances or weight limits on this particular state route. As of 2009, this route has been relocated and improved. From the interchange of Interstate 71, it has been widened to three lanes with a center turn lane. It has been improved to the junction of State Route 22.",
+        "Oldham County is a county located in the commonwealth of Kentucky. As of the 2010 census, the population was 60,316. Its county seat is La Grange. The county is named for Colonel William Oldham. Oldham County was a prohibition or completely dry county until January 2005 as the result of a 2004 'moist' vote, permitting sales of alcohol in restaurants that seat at least 100 patrons in which 70%+ of total revenue is derived from sales of food. After a vote in late 2015; Oldham county has become a completely wet county.",
+        "Kentucky Route 1065 (KY 1065) is a 13.715 mi state highway located in Louisville, Kentucky. The western terminus of the route is at Kentucky Route 907 a short distance west of Kentucky Route 841 (Gene Snyder Freeway) exit 6 in the Louisville neighborhood of Auburndale. The eastern terminus is at Kentucky Route 1819 in Fern Creek.",
+        "Kentucky Route 155 (KY 155) is a 20.788 mi state highway in the U.S. state of Kentucky. The route originates at a junction with U.S. Route 31E and US 150 (Bardstown Road) in Louisville, Kentucky. On the other side of intersection, KY 155 becomes a local road called Trevilian Way. KY 155 continues through several Louisville suburbs to Jeffersontown, Kentucky and into Spencer County, where it eventually merges with Kentucky Route 55 a few miles north of Taylorsville, Kentucky."
+      ]
+    },
+    {
+      "sample_id": "5a7e4af3554299495941998c",
+      "source_index": 22,
+      "relevance_score": 0.3333333333333333,
+      "completeness_score": 0.2,
+      "question": "The founder of the Ali Akbar College of Music was known for his virtuosity in what musical instrument?",
+      "response": "The founder of the Ali Akbar College of Music, Ali Akbar Khan, was known for his virtuosity in playing the sarod.",
+      "documents": [
+        "Ali Akbar Bahman (also Mirza Ali Akbar Khan; b. 1883 - d. 1967) was an Iranian employee of the Foreign Ministry, diplomat and politician under the Qajar and Pahlavi dynasties. Ali Akbar Bahman was during the rule of the Qajar dynasty as well as at the time of Reza Shah Pahlavi ambassador and minister.",
+        "The Ali Akbar College of Music (AACM) is the name of three schools founded by Indian musician Ali Akbar Khan to teach Indian classical music. The first was founded in 1956 in Calcutta, India. The second was founded in 1967 in Berkeley, California, but moved to its current location in San Rafael, California the next year. The third was founded in 1985 in Basel, Switzerland and is run by Khan's disciple Ken Zuckerman.",
+        "Achan (English: \"Father\" ) is a 2011 Malayalam-language film directed by Ali Akbar and starring Thilakan. The film is based on a drama of the same name written by S. R. Raveendran, who also scripted the film. The film's shooting began on 28 July 2010, and was scheduled to release by October. Several issues regarding the casting of Thilakan, an expelled member of the Association of Malayalam Movie Artists, led the film to a delayed release on 14 January 2011. Ali Akbar’s wife produced the film; the music was composed by his daughter.",
+        "Ali Akbar Khan (14 April 192218 June 2009) was a Hindustani classical musician of the Maihar gharana, known for his virtuosity in playing the sarod. Trained as a classical musician and instrumentalist by his father, Allauddin Khan, Khan also composed several classical \"ragas\" and film scores. He established a music school in Calcutta in 1956, and the Ali Akbar College of Music in 1967, which moved with him to the USA and is now based in San Rafael, California, with a branch in Basel, Switzerland."
+      ]
+    },
+    {
+      "sample_id": "5ab82fe155429919ba4e225a",
+      "source_index": 373,
+      "relevance_score": 0.09090909090909091,
+      "completeness_score": 1.0,
+      "question": "What is the name of one the Italian Navy's new warship?",
+      "response": "The name of one of the Italian Navy's new warships is PPA, which stands for Pattugliatore Polivalente d'Altura, or Offshore Multipurpose Patrol Ship.",
+      "documents": [
+        "The Italian Navy (Italian: \"Marina Militare\" , \"Military Navy\"; abbreviated as MM) is the maritime defence force of the Italian Republic. It is one of the four branches of Italian Armed Forces and was formed in 1946 from what remained of the \"Regia Marina\" (Royal Navy) after World War II. As of August 2014, the Italian Navy had a strength of 30,923 active personnel with approximately 184 vessels in service, including minor auxiliary vessels.",
+        "A frigate is any of several types of warship, the term having been used for ships of various sizes and roles over the last few centuries.",
+        "PPA, Pattugliatore Polivalente d'Altura (Offshore Multipurpose Patrol Ship) is a new Frigate class of the Italian Navy.<br>",
+        "The explosive motorboat MT (\"Motoscafo da Turismo\") also known as \"barchino\" (Italian for \"little boat\"), was a series of small explosive motor boats developed by the Italian Royal Navy, which was based on its predecessors, the prototype boat MA (\"Motoscafo d'Assalto\") and the MAT (\"Motoscafo Avio Trasportato\"), an airborne prototype. Explosive motorboats were designed to make a silent approach to a moored warship, set a collision course and run into full gear until the last 200 or 100 yards to the target, when the pilot would eject after blocking the rudder. At impact, the hull would be broken amidships by a small explosive charge, sinking the boat and the warhead, which was fitted with a water-pressure fuse set to go off at a depth of one metre. By the end of September 1938 the Navy Department ordered six explosive boats. The one-pilot vessels were built by the companies Baglietto of Varazze and CABI of Milan, which was also to supply the engines. The small vessels were used by the Italian Navy in at least two major operations in the Mediterranean theatre during World War II."
+      ]
+    },
+    {
+      "sample_id": "5a8cd6de55429941ae14df07",
+      "source_index": 235,
+      "relevance_score": 0.21052631578947367,
+      "completeness_score": 0.5,
+      "question": "Charlotte Hatherley initially came to prominence in a band formed in what year?",
+      "response": "Charlotte Hatherley initially came to prominence in the band Ash, which was formed in 1992.",
+      "documents": [
+        "Druid was a 1970s progressive rock band from England, and initially came to public attention by winning a 1974 unsigned band contest by \"Melody Maker\" magazine. The band went on to perform on \"The Old Grey Whistle Test\" and to record two albums. Their sound was notably influenced by Yes.",
+        "Inayat Khan Rehmat Khan Pathan (Urdu: عنایت خان‎ ; July 5, 1882 – February 5, 1927) was the founder of The Sufi Order in the West in 1914 (London) and teacher of Universal Sufism. He initially came to the West as a Northern Indian classical musician, having received the honorific \"Tansen\" from the Nizam of Hyderabad, but he soon turned to the introduction and transmission of Sufi thought and practice. Later, in 1923, the Sufi Order of the London period was dissolved into a new organization, formed under Swiss law, called the \"International Sufi Movement\". His message of divine unity (Tawhid) focused on the themes of love, harmony and beauty. He taught that blind adherence to any book rendered religion devoid of spirit. Branches of Inayat Khan's movement can be found in the Netherlands, France, England, Germany, the United States, Canada, Russia and Australia. In his various written works, such as the Music of Life and The Mysticism of Sound and Music, Inayat Khan interlocks his passion for music with his Sufi ideologies making a compelling argument for music as the harmonious thread of the Universe.",
+        "Charlotte Franklin Hatherley (born 20 June 1979) is an English singer, songwriter and guitarist. She initially came to prominence as guitarist and backing vocalist for alternative rock band Ash. Since leaving Ash in 2006, she has pursued a solo career and also acted as a touring instrumentalist for Client, KT Tunstall, Bat for Lashes and Birdy. Hatherley is now performing solo under the moniker of Sylver Tongue and as a recording and touring member of NZCA Lines.",
+        "Ash is a Northern Irish alternative rock band, formed in Downpatrick in 1992 by vocalist and guitarist Tim Wheeler, bassist Mark Hamilton and drummer Rick McMurray. As a three-piece, they released mini-album \"Trailer\" in 1994 and full-length album \"1977\" in 1996. This 1996 release was named by \"NME\" as one of the 500 greatest albums of all time. After the success of their full debut the band recruited Charlotte Hatherley as a guitarist and vocalist, releasing their second record \"Nu-Clear Sounds\" in 1998. After narrowly avoiding bankruptcy the band released \"Free All Angels\" in 2001 and a string of successful singles."
+      ]
+    }
+  ]
+}
