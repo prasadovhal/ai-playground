@@ -237,3 +237,17 @@ mcp_failures/.vendor/
 mcp_failures/data/
 mcp_failures/results/
 mcp_failures/server/
+
+# Keep only the forecast routing scripts and dependencies
+/forecast_routing/*
+!/forecast_routing/*.py
+!/forecast_routing/requirements.txt
+
+# Keep competitive prompting scripts and requirements, excluding results.
+/competitive_prompting/**
+!/competitive_prompting/**/
+!/competitive_prompting/**/*.py
+!/competitive_prompting/**/requirements.txt
+/competitive_prompting/**/.venv/
+/competitive_prompting/**/__pycache__/
+/competitive_prompting/**/results/
