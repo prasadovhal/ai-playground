@@ -251,3 +251,16 @@ mcp_failures/server/
 /competitive_prompting/**/.venv/
 /competitive_prompting/**/__pycache__/
 /competitive_prompting/**/results/
+
+# WSP: private grids, experiment output, and credentials stay out of Git.
+/weight_paced_programming/private/
+/weight_paced_programming/results/
+/weight_paced_programming/**/*.md
+/weight_paced_programming/figures/
+/weight_paced_programming/results_package/
+/weight_paced_programming/results_package.zip
+/weight_paced_programming/*.sqlite*
+/weight_paced_programming/archive/
+/weight_paced_programming/iwsp_results/
+/weight_paced_programming/iwsp_rerun/
+/weight_paced_programming/representation_run/
